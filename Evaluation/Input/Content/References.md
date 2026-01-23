@@ -19,7 +19,7 @@
 **Ding 2014** Ding Y, Jia Y, Song Y, et al (2014) The effect of lansoprazole, an OCT inhibitor, on metformin pharmacokinetics in healthy subjects. Eur J Clin Pharmacol 70:141–146. https://doi.org/10.1007/s00228-013-1604-7
 
 **FDA 2017** US Food and Drug Administration (2017) Drug development and drug interactions: Table
-of substrates, inhibitors and inducers. https://www.fda.gov/drugs/drug-interactions/labeling/drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers
+of substrates, inhibitors and inducers. https://www.fda.gov/drugs/drug-interactions-labeling/drug-development-and-drug-interactions-table-substrates-inhibitors-and-inducers
 
 **Gan 2016** Gan L, Jiang X, Mendonza A, et al (2016) Pharmacokinetic drug-drug interaction assessment of LCZ696 (an angiotensin receptor neprilysin inhibitor) with omeprazole, metformin or levonorgestrel-ethinyl estradiol in healthy subjects. Clin Pharmacol Drug Dev 5:27–39. https://doi.org/10.1002/cpdd.181
 
@@ -42,6 +42,8 @@ of substrates, inhibitors and inducers. https://www.fda.gov/drugs/drug-interacti
 **Kolesnikov 2015**Kolesnikov N, Hastings E, Keays M, et al (2015) ArrayExpress update—simplifying data submissions. Nucleic Acids Research 43:D1113–D1116. https://doi.org/10.1093/nar/gku1057
 
 **Manitpisitkul 2014** Manitpisitkul P, Curtin CR, Shalayda K, et al (2014) Pharmacokinetic interactions between topiramate and pioglitazone and metformin. Epilepsy Res 108:1519–1532. https://doi.org/10.1016/j.eplepsyres.2014.08.013
+
+**Marathe 2000** Marathe PH, Wen Y, Norton J, Greene DS, Barbhaiya RH, Wilding IR. Effect of altered gastric emptying and gastrointestinal motility on metformin absorption. Br J Clin Pharmacol. 50:325–332. doi: 10.1046/j.1365-2125.2000.00264.x.
 
 **Masuda 2006** Masuda S, Terada T, Yonezawa A, et al (2006) Identification and functional characterization of a new human kidney-specific H+/organic cation antiporter, kidney-specific multidrug and toxin extrusion 2. J Am Soc Nephrol 17:2127–2135. https://doi.org/10.1681/asn.2006030205
 
@@ -98,6 +100,6 @@ digestive tract. Diabetes Research and Clinical Practice 4:223–229
 
 **Yin 2016** Yin J, Duan H, Wang J (2016) Impact of Substrate-Dependent Inhibition on Renal Organic Cation Transporters hOCT2 and hMATE1/2-K-Mediated Drug Transport and Intracellular Accumulation. J Pharmacol Exp Ther 359:401–410. https://doi.org/10.1124/jpet.116.236158
 
-**Zhou 2007** Zhou M, Xia L, Wang J (2007) Metformin Transport by a Newly Cloned Proton-Stimulated Organic Cation Transporter (Plasma Membrane Monoamine Transporter) Expressed in Human Intestine. Drug Metab Dispos 35:1956–1962 https://doi: 10.1124/dmd.107.015495.
+**Zhou 2007** Zhou M, Xia L, Wang J (2007) Metformin Transport by a Newly Cloned Proton-Stimulated Organic Cation Transporter (Plasma Membrane Monoamine Transporter) Expressed in Human Intestine. Drug Metab Dispos 35:1956–1962. https://doi.org/10.1124/dmd.107.015495
 
 **Zhou 2009** Zhou SF, Zhou ZW, Yang LP, Cai JP (2009) Substrates, inducers, inhibitors and structure-activity relationships of human cytochrome P450 2C9 and implications in drug development. Current Medicinal Chemistry 16:3480–3675. https://doi.org/10.2174/092986709789057635

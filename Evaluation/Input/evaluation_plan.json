@@ -1,5 +1,5 @@
 {
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.1/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.4/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Metformin",
@@ -424,7 +424,7 @@
                         ]
                     },{
                         "Caption": "Metformin iv (model verification)",
-                        "Symbol": "Triangle",
+                        "Symbol": "Square",
                         "OutputMappings": [
                             {
                                 "Project": "Metformin",
@@ -438,7 +438,7 @@
                         "Caption": "Metformin oral administration (model verification)",
                         "Symbol": "Triangle",
                         "OutputMappings": [
-                            
+
                             {
                                 "Project": "Metformin",
                                 "Simulation": "po  250 mg, Somogyi 1987, n=7, tab, fed",

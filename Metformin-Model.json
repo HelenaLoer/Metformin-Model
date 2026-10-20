@@ -51315,8 +51315,6 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 43.755806,
-              "Max": 89.70728,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -51328,8 +51326,6 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 8.107926,
-              "Max": 28.5440178,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
@@ -51337,12 +51333,9 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.2781755,
-              "Max": 0.979319036,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
@@ -51357,17 +51350,6 @@
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 1
-              }
-            },
-            {
-              "Name": "iv  250 mg, Tucker 1981, n=4-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF8000",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
               }
             },
             {
@@ -51429,6 +51411,74 @@
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#00FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Metformin-model-[11-20260804-1]-clean\niv  250 mg, Tucker 1981, n=4\n2026-10-20 18:06"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
             },
             {
               "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
@@ -51483,7 +51533,7 @@
               }
             },
             {
-              "Name": "Tucker_1981, iv, Urine, n=4-Metformin-Kidney-Urine-cumulative Urin excretion ",
+              "Name": "Tucker_1981, iv 195 mg, Urine, n=4-Metformin-Kidney-Urine-cumulative Urin excretion ",
               "X": "Tucker_1981, iv 195 mg, Urine, n=4|Time ",
               "Y": "Tucker_1981, iv 195 mg, Urine, n=4|ObservedData|Kidney|Urine|Metformin|cumulative Urin excretion ",
               "CurveOptions": {
@@ -51496,7 +51546,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Time Profile Analysis 1",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -51510,11 +51560,11 @@
           },
           "Settings": {
             "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#00FFFFFF",
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Metformin-model-[11-20260804-1]-clean\niv  250 mg, Tucker 1981, n=4\n2026-10-20 18:06"
+          "OriginText": "Metformin-model-[11-20260804-1]-clean\niv  250 mg, Tucker 1981, n=4\n2026-10-20 18:43"
         }
       ]
     },
@@ -55382,7 +55432,7 @@
             0.02275846
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -55470,7 +55520,7 @@
             0.0297141466
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -55558,7 +55608,7 @@
             0.0184083469
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -55646,7 +55696,7 @@
             0.0135672968
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -55734,7 +55784,7 @@
             0.032200478
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {

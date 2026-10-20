@@ -42754,7 +42754,7 @@
       ]
     },
     {
-      "Name": "iv  500 mg, Pentikäinen 1979, n=3",
+      "Name": "iv  500 mg, Pentikainen 1979, n=3",
       "Model": "4Comp",
       "ObservedData": [
         "Pentikainen_1979, iv 390 mg, Plasma, n=3",
@@ -43070,18 +43070,18 @@
           ],
           "Curves": [
             {
-              "Name": "iv  500 mg, Pentikäinen 1979, n=3-Metformin-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "iv  500 mg, Pentikainen 1979, n=3-Metformin-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "iv  500 mg, Pentikäinen 1979, n=3|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "iv  500 mg, Pentikäinen 1979, n=3-Metformin-Kidney-Urine-Fraction excreted to urine",
+              "Name": "iv  500 mg, Pentikainen 1979, n=3-Metformin-Kidney-Urine-Fraction excreted to urine",
               "X": "Time",
-              "Y": "iv  500 mg, Pentikäinen 1979, n=3|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
               "CurveOptions": {
                 "yAxisType": "Y2",
                 "Color": "#FF8000",
@@ -43192,7 +43192,7 @@
             {
               "Name": "Metformin-Muscle-Tissue-Concentration",
               "X": "Time",
-              "Y": "iv  500 mg, Pentikäinen 1979, n=3|Organism|Muscle|Metformin|Tissue",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Muscle|Metformin|Tissue",
               "CurveOptions": {
                 "Visible": false,
                 "Color": "#0000C0",
@@ -43202,7 +43202,7 @@
             {
               "Name": "Metformin-Lung-Tissue-Concentration",
               "X": "Time",
-              "Y": "iv  500 mg, Pentikäinen 1979, n=3|Organism|Lung|Metformin|Tissue",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Lung|Metformin|Tissue",
               "CurveOptions": {
                 "Visible": false,
                 "Color": "#8080FF",
@@ -43212,7 +43212,7 @@
             {
               "Name": "Metformin-Liver-Tissue-Concentration",
               "X": "Time",
-              "Y": "iv  500 mg, Pentikäinen 1979, n=3|Organism|Liver|Metformin|Tissue (Liver)",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Liver|Metformin|Tissue (Liver)",
               "CurveOptions": {
                 "Visible": false,
                 "Color": "#C0C000",
@@ -43222,7 +43222,7 @@
             {
               "Name": "Metformin-Large Intestine-Tissue-Concentration",
               "X": "Time",
-              "Y": "iv  500 mg, Pentikäinen 1979, n=3|Organism|LargeIntestine|Metformin|Total Tissue (Large Intestine)",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|LargeIntestine|Metformin|Total Tissue (Large Intestine)",
               "CurveOptions": {
                 "Visible": false,
                 "Color": "#808080",
@@ -43232,7 +43232,7 @@
             {
               "Name": "Metformin-Small Intestine-Tissue-Concentration",
               "X": "Time",
-              "Y": "iv  500 mg, Pentikäinen 1979, n=3|Organism|SmallIntestine|Metformin|Total Tissue (Small Intestine)",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|SmallIntestine|Metformin|Total Tissue (Small Intestine)",
               "CurveOptions": {
                 "Visible": false,
                 "Color": "#00FF00",
@@ -43242,7 +43242,7 @@
             {
               "Name": "Metformin-Stomach-Tissue-Concentration",
               "X": "Time",
-              "Y": "iv  500 mg, Pentikäinen 1979, n=3|Organism|Stomach|Metformin|Tissue",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Stomach|Metformin|Tissue",
               "CurveOptions": {
                 "Visible": false,
                 "Color": "#C04000",
@@ -43252,7 +43252,7 @@
             {
               "Name": "Metformin-Kidney-Tissue-Concentration",
               "X": "Time",
-              "Y": "iv  500 mg, Pentikäinen 1979, n=3|Organism|Kidney|Metformin|Tissue",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Kidney|Metformin|Tissue",
               "CurveOptions": {
                 "Visible": false,
                 "Color": "#C000C0",
@@ -43262,7 +43262,7 @@
             {
               "Name": "Metformin-Heart-Tissue-Concentration",
               "X": "Time",
-              "Y": "iv  500 mg, Pentikäinen 1979, n=3|Organism|Heart|Metformin|Tissue",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Heart|Metformin|Tissue",
               "CurveOptions": {
                 "Visible": false,
                 "Color": "#00C0C0",
@@ -43272,7 +43272,7 @@
             {
               "Name": "Metformin-Gonads-Tissue-Concentration",
               "X": "Time",
-              "Y": "iv  500 mg, Pentikäinen 1979, n=3|Organism|Gonads|Metformin|Tissue",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Gonads|Metformin|Tissue",
               "CurveOptions": {
                 "Visible": false,
                 "Color": "#FF00FF",
@@ -43282,7 +43282,7 @@
             {
               "Name": "Metformin-Brain-Tissue-Concentration",
               "X": "Time",
-              "Y": "iv  500 mg, Pentikäinen 1979, n=3|Organism|Brain|Metformin|Tissue",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Brain|Metformin|Tissue",
               "CurveOptions": {
                 "Visible": false,
                 "Color": "#008000",
@@ -43292,7 +43292,7 @@
             {
               "Name": "Metformin-Bone-Tissue-Concentration",
               "X": "Time",
-              "Y": "iv  500 mg, Pentikäinen 1979, n=3|Organism|Bone|Metformin|Tissue",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Bone|Metformin|Tissue",
               "CurveOptions": {
                 "Visible": false,
                 "Color": "#FF0000",
@@ -43302,7 +43302,7 @@
             {
               "Name": "Metformin-Pancreas-Tissue-Concentration",
               "X": "Time",
-              "Y": "iv  500 mg, Pentikäinen 1979, n=3|Organism|Pancreas|Metformin|Tissue",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Pancreas|Metformin|Tissue",
               "CurveOptions": {
                 "Visible": false,
                 "Color": "#00C000",
@@ -43312,7 +43312,7 @@
             {
               "Name": "Metformin-Skin-Tissue-Concentration",
               "X": "Time",
-              "Y": "iv  500 mg, Pentikäinen 1979, n=3|Organism|Skin|Metformin|Tissue",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Skin|Metformin|Tissue",
               "CurveOptions": {
                 "Visible": false,
                 "Color": "#C00000",
@@ -43322,7 +43322,7 @@
             {
               "Name": "Metformin-Spleen-Tissue-Concentration",
               "X": "Time",
-              "Y": "iv  500 mg, Pentikäinen 1979, n=3|Organism|Spleen|Metformin|Tissue",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Spleen|Metformin|Tissue",
               "CurveOptions": {
                 "Visible": false,
                 "Color": "#FFFF00",
@@ -46090,7 +46090,7 @@
       ]
     },
     {
-      "Name": "po  500 mg, Pentikäinen 1979, n=5, tab, fast",
+      "Name": "po  500 mg, Pentikainen 1979, n=5, tab, fast",
       "Model": "4Comp",
       "ObservedData": [
         "Pentikainen_1979, po, Urine_RL",
@@ -46370,18 +46370,18 @@
           ],
           "Curves": [
             {
-              "Name": "po  500 mg, Pentikäinen 1979, n=5, tab, fast-Metformin-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "po  500 mg, Pentikainen 1979, n=5, tab, fast-Metformin-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "po  500 mg, Pentikäinen 1979, n=5, tab, fast|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
+              "Y": "po  500 mg, Pentikainen 1979, n=5, tab, fast|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "po  500 mg, Pentikäinen 1979, n=5, tab, fast-Metformin-Kidney-Urine-Fraction excreted to urine",
+              "Name": "po  500 mg, Pentikainen 1979, n=5, tab, fast-Metformin-Kidney-Urine-Fraction excreted to urine",
               "X": "Time",
-              "Y": "po  500 mg, Pentikäinen 1979, n=5, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "Y": "po  500 mg, Pentikainen 1979, n=5, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
               "CurveOptions": {
                 "yAxisType": "Y2",
                 "Color": "#FF8000",
@@ -49703,7 +49703,7 @@
       ]
     },
     {
-      "Name": "po  850 mg, Morissey 2016, n=12, tab, fast",
+      "Name": "po  850 mg, Morrissey 2016, n=12, tab, fast",
       "Model": "4Comp",
       "ObservedData": [
         "Morrissey_2016, po 662.9 mg, Plasma, n=12"
@@ -49957,9 +49957,9 @@
           ],
           "Curves": [
             {
-              "Name": "po  850 mg, Morissey 2016, n=12, tab, fast-Metformin-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "po  850 mg, Morrissey 2016, n=12, tab, fast-Metformin-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "po  850 mg, Morissey 2016, n=12, tab, fast|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
+              "Y": "po  850 mg, Morrissey 2016, n=12, tab, fast|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#0000FF",
                 "LegendIndex": 1
@@ -62665,7 +62665,7 @@
         "po  500 mg, Manitpisitkul 2014, n=18, tab, fast",
         "po  500 mg, Najib 2002, n=24, tab, fast",
         "po  500 mg, Oh 2016, n=20, tab, fast",
-        "po  500 mg, Pentikäinen 1979, n=5, tab, fast",
+        "po  500 mg, Pentikainen 1979, n=5, tab, fast",
         "po  500 mg, Sambol 1996b, n=24, tab, fast",
         "po  500 mg, Stopfer 2016, n=20, tab, fast",
         "po  500 mg, Tucker 1981, n=4, tab, fed",
@@ -62685,7 +62685,7 @@
         "po  850 mg, Sambol 1996b, n=24, tab, fed",
         "po 1700 mg, Sambol 1996a, n=9, tab, fast",
         "po 1000 mg, Johansson 2014, n=14, tab, fast",
-        "po  850 mg, Morissey 2016, n=12, tab, fast",
+        "po  850 mg, Morrissey 2016, n=12, tab, fast",
         "po  850 mg, Robert 2003, WholeBlood, n=6, tab, fed",
         "po  500 mg, Boehringer 2018, n=13, sol, fast"
       ]
@@ -62695,7 +62695,7 @@
       "Classifiables": [
         "iv   0.0014 mg, Gormsen 2016, n=4",
         "iv  250 mg, Tucker 1981, n=4",
-        "iv  500 mg, Pentikäinen 1979, n=3",
+        "iv  500 mg, Pentikainen 1979, n=3",
         "iv 1000 mg, Sirtori 1978, n=5"
       ]
     }

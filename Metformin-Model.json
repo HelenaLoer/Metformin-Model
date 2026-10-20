@@ -51250,21 +51250,7 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
-        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-        "Organism|Bone|Metformin|Tissue",
-        "Organism|Brain|Metformin|Tissue",
-        "Organism|Gonads|Metformin|Tissue",
-        "Organism|Heart|Metformin|Tissue",
-        "Organism|Kidney|Metformin|Tissue",
-        "Organism|LargeIntestine|Metformin|Total Tissue (Large Intestine)",
-        "Organism|Liver|Metformin|Tissue (Liver)",
-        "Organism|Lung|Metformin|Tissue",
-        "Organism|Muscle|Metformin|Tissue",
-        "Organism|Pancreas|Metformin|Tissue",
-        "Organism|Skin|Metformin|Tissue",
-        "Organism|SmallIntestine|Metformin|Total Tissue (Small Intestine)",
-        "Organism|Spleen|Metformin|Tissue",
-        "Organism|Stomach|Metformin|Tissue"
+        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine"
       ],
       "Individual": "European_Tucker_1981",
       "Compounds": [
@@ -51329,6 +51315,8 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
+              "Min": 43.755806,
+              "Max": 89.70728,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -51340,6 +51328,8 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
+              "Min": 8.107926,
+              "Max": 28.5440178,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Linear",
@@ -51351,6 +51341,8 @@
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
+              "Min": 0.2781755,
+              "Max": 0.979319036,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
@@ -51502,146 +51494,6 @@
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
-            },
-            {
-              "Name": "Metformin-Bone-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Bone|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#FF0000",
-                "LegendIndex": 14
-              }
-            },
-            {
-              "Name": "Metformin-Brain-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Brain|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#FF00FF",
-                "LegendIndex": 15
-              }
-            },
-            {
-              "Name": "Metformin-Gonads-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Gonads|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#00C0C0",
-                "LegendIndex": 16
-              }
-            },
-            {
-              "Name": "Metformin-Heart-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Heart|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#C000C0",
-                "LegendIndex": 17
-              }
-            },
-            {
-              "Name": "Metformin-Kidney-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Kidney|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#C04000",
-                "LegendIndex": 18
-              }
-            },
-            {
-              "Name": "Metformin-Stomach-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Stomach|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#00FF00",
-                "LegendIndex": 19
-              }
-            },
-            {
-              "Name": "Metformin-Small Intestine-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|SmallIntestine|Metformin|Total Tissue (Small Intestine)",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#808080",
-                "LegendIndex": 20
-              }
-            },
-            {
-              "Name": "Metformin-Large Intestine-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|LargeIntestine|Metformin|Total Tissue (Large Intestine)",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#C0C000",
-                "LegendIndex": 21
-              }
-            },
-            {
-              "Name": "Metformin-Liver-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Liver|Metformin|Tissue (Liver)",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#8080FF",
-                "LegendIndex": 22
-              }
-            },
-            {
-              "Name": "Metformin-Lung-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Lung|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#0000C0",
-                "LegendIndex": 23
-              }
-            },
-            {
-              "Name": "Metformin-Muscle-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Muscle|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#00C000",
-                "LegendIndex": 24
-              }
-            },
-            {
-              "Name": "Metformin-Pancreas-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Pancreas|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#C00000",
-                "LegendIndex": 25
-              }
-            },
-            {
-              "Name": "Metformin-Skin-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Skin|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#FFFF00",
-                "LegendIndex": 26
-              }
-            },
-            {
-              "Name": "Metformin-Spleen-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Spleen|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#008080",
-                "LegendIndex": 27
-              }
             }
           ],
           "Name": "Time Profile Analysis",
@@ -51662,7 +51514,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Metformin-model-[11-20260804-1]-clean\niv  250 mg, Tucker 1981, n=4\n2026-10-13 17:19"
+          "OriginText": "Metformin-model-[11-20260804-1]-clean\niv  250 mg, Tucker 1981, n=4\n2026-10-20 18:06"
         }
       ]
     },

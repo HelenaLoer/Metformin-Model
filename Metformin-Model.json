@@ -52118,7 +52118,7 @@
       "ObservedData": [
         "Sambol_1995, po, 662.9 mg, Plasma, n=6",
         "Sambol_1995, po, 662.9 mg, Whole blood, n=6",
-        "Sambol_1995, po, 662.9 mg, Urine, n=6"
+        "Sambol_1995, po 662.9 mg, Urine, n=6"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -55910,152 +55910,6 @@
       }
     },
     {
-      "Name": "Tucker_1981, po,  390 mg, Feces, n=4",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "Urine_iv",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Tabelle1",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Metformin1",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Lumen",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Feces",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Dose ",
-          "QuantityInfo": {
-            "Path": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose "
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 129.16
-          },
-          "Values": [
-            0.269
-          ],
-          "Dimension": "Fraction"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time ",
-        "QuantityInfo": {
-          "Path": "Urine_iv|Time ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          108.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Tucker_1981, po, 1170 mg, Feces, n=4",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "Urine_iv",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Tabelle1",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Metformin1",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Lumen",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Feces",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Dose ",
-          "QuantityInfo": {
-            "Path": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose "
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 129.16
-          },
-          "Values": [
-            0.329
-          ],
-          "Dimension": "Fraction"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time ",
-        "QuantityInfo": {
-          "Path": "Urine_iv|Time ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          108.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
       "Name": "Robert_2003, po 662.9 mg, fed, Plasma, n=6",
       "ExtendedProperties": [
         {
@@ -56418,7 +56272,7 @@
       }
     },
     {
-      "Name": "Sambol_1995, po, 662.9 mg, Urine, n=6",
+      "Name": "Sambol_1995, po 662.9 mg, Urine, n=6",
       "ExtendedProperties": [
         {
           "Name": "Source",
@@ -57217,152 +57071,6 @@
           1.331751,
           1.4152602,
           1.4987694
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Gormsen_Tucker_iv, Feces, hypoth.",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "Z:\\projects\\small_projects\\Metformin\\observeddata\\Tucker_Urine_iv.xlsx.Tucker_Urine_iv",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "Tucker_Urine_iv",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Tucker_Urine_iv",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Metformin",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Kidney",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Urine",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "cumulative Urin excretion ",
-          "QuantityInfo": {
-            "Path": "Tucker_1981, iv, Urine, n=4|ObservedData|Kidney|Urine|Metformin|cumulative Urin excretion "
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
-          },
-          "Values": [
-            0.0
-          ],
-          "Dimension": "Fraction"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time ",
-        "QuantityInfo": {
-          "Path": "Tucker_1981, iv, Urine, n=4|Time ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          5.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Gormsen_Tucker_iv, Urine, n=4",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "Z:\\projects\\small_projects\\Metformin\\observeddata\\Tucker_Urine_iv.xlsx.Tucker_Urine_iv",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "Tucker_Urine_iv",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Tucker_Urine_iv",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Metformin",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Kidney",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Urine",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "cumulative Urin excretion ",
-          "QuantityInfo": {
-            "Path": "Tucker_1981, iv, Urine, n=4|ObservedData|Kidney|Urine|Metformin|cumulative Urin excretion "
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
-          },
-          "Values": [
-            0.751942
-          ],
-          "Dimension": "Fraction"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time ",
-        "QuantityInfo": {
-          "Path": "Tucker_1981, iv, Urine, n=4|Time ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          5.0
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -58408,204 +58116,6 @@
       }
     },
     {
-      "Name": "Sambol_1996b, po tab fed 662.915 mg, n=24",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Sambol 1996b tab fed.xlsx.Sambol 1996b 850mg tab fed",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "Sambol 1996b tab fed",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Sambol 1996b 850mg tab fed",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Metformin",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Plasma ",
-          "QuantityInfo": {
-            "Path": "Sambol_1996b, po tab fed 662.915 mg, n=24|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Plasma "
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
-          },
-          "Values": [
-            0.462671876,
-            0.5654155,
-            0.6362936,
-            0.7333604,
-            0.8159355,
-            0.8558467,
-            0.8871992,
-            0.920294046,
-            0.67933166,
-            0.445745915,
-            0.172590539,
-            0.07974335,
-            0.0299618114
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time fed ",
-        "QuantityInfo": {
-          "Path": "Sambol_1996b, po tab fed 662.915 mg, n=24|Time fed ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.6325732,
-          0.8755693,
-          1.12003684,
-          1.61065352,
-          2.1429956,
-          2.6352942,
-          3.12780285,
-          4.11345053,
-          6.13256741,
-          8.153787,
-          12.1159258,
-          16.1160069,
-          24.106081
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Sambol_1996b, po sol fast 662.915 mg, n=24",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Sambol 1996b sol fast.xlsx.Sambol 1996b 850mg sol fast",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "Sambol 1996b sol fast",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Sambol 1996b 850mg sol fast",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Metformin",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Plasma ",
-          "QuantityInfo": {
-            "Path": "Sambol_1996b, po sol fast 662.915 mg, n=24|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Plasma "
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
-          },
-          "Values": [
-            0.853319,
-            0.9602874,
-            1.018864,
-            1.09387958,
-            1.26075137,
-            1.36998081,
-            1.3871063,
-            1.37175024,
-            1.23544729,
-            0.720537663,
-            0.4104711,
-            0.164648235,
-            0.07697498,
-            0.0303167775
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time ",
-        "QuantityInfo": {
-          "Path": "Sambol_1996b, po sol fast 662.915 mg, n=24|Time ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          0.250073,
-          0.494540542,
-          0.7400591,
-          1.02646232,
-          1.517079,
-          2.00874686,
-          2.50167561,
-          2.99502516,
-          4.02429,
-          6.00651646,
-          8.030257,
-          11.9917669,
-          15.9916382,
-          23.9808712
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
       "Name": "Sambol_1996b, po 662.9 mg, Urine, n=21",
       "ExtendedProperties": [
         {
@@ -58992,79 +58502,6 @@
         },
         "Values": [
           48.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Tucker_1981, iv,  390 mg, Feces, n=4",
-      "ExtendedProperties": [
-        {
-          "Name": "Source",
-          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "Urine_iv",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Tabelle1",
-          "Type": "String"
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Metformin1",
-          "Type": "String"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human",
-          "Type": "String"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Lumen",
-          "Type": "String"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Feces",
-          "Type": "String"
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Dose ",
-          "QuantityInfo": {
-            "Path": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose "
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "MolWeight": 129.16
-          },
-          "Values": [
-            0.0
-          ],
-          "Dimension": "Fraction"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time ",
-        "QuantityInfo": {
-          "Path": "Urine_iv|Time ",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined"
-        },
-        "Values": [
-          108.0
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -62410,8 +61847,6 @@
         "Gormsen_2016, iv 1.445 µg, Liver, n=5",
         "Gormsen_2016, iv 1.445 µg, Intestines, n=5",
         "Gormsen_2016, iv 1.445 µg, Muscle, n=5",
-        "Gormsen_Tucker_iv, Feces, hypoth.",
-        "Gormsen_Tucker_iv, Urine, n=4",
         "Gormsen_2016, po 0.8556 µg, Kidney, n=5",
         "Gormsen_2016, po 0.8556 µg, Liver, n=5",
         "Gormsen_2016, po 0.8556 µg, Muscle, n=5",
@@ -62455,7 +61890,7 @@
       "Classifiables": [
         "Sambol_1995, po, 662.9 mg, Plasma, n=6",
         "Sambol_1995, po, 662.9 mg, Whole blood, n=6",
-        "Sambol_1995, po, 662.9 mg, Urine, n=6"
+        "Sambol_1995, po 662.9 mg, Urine, n=6"
       ]
     },
     {
@@ -62481,10 +61916,7 @@
         "Tucker_1981, iv, 195 mg, ID1",
         "Tucker_1981, iv, 195 mg, ID2",
         "Tucker_1981, iv, 195 mg, ID3",
-        "Tucker_1981, iv, 195 mg, ID4",
-        "Tucker_1981, po,  390 mg, Feces, n=4",
-        "Tucker_1981, po, 1170 mg, Feces, n=4",
-        "Tucker_1981, iv,  390 mg, Feces, n=4"
+        "Tucker_1981, iv, 195 mg, ID4"
       ]
     },
     {
@@ -62523,9 +61955,7 @@
     {
       "Name": "Sambol 1996b",
       "Classifiables": [
-        "Sambol_1996b, po sol fast 662.915 mg, n=24",
         "Sambol_1996b, po 662.9 mg, Plasma, n=24",
-        "Sambol_1996b, po tab fed 662.915 mg, n=24",
         "Sambol_1996b, po 662.9 mg, Urine, n=21",
         "Sambol_1996b, po 662.9 mg, solution, Urine, n=24",
         "Sambol_1996b, po 662.9 mg, fed, Urine, n=21",

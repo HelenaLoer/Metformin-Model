@@ -51252,6 +51252,58 @@
         "Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Metformin|Fraction excreted to urine"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Log",
+          "Path": "iv  250 mg, Tucker 1981, n=4|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Tucker_1981, iv 195 mg, Plasma, n=4"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "iv  250 mg, Tucker 1981, n=4|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+          "ObservedData": "Tucker_1981, iv 195 mg, Urine, n=4"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "iv  250 mg, Tucker 1981, n=4|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Tucker_1981, iv, 195 mg, ID1"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "iv  250 mg, Tucker 1981, n=4|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Tucker_1981, iv, 195 mg, ID2"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "iv  250 mg, Tucker 1981, n=4|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Tucker_1981, iv, 195 mg, ID3"
+        },
+        {
+          "Scaling": "Log",
+          "Path": "iv  250 mg, Tucker 1981, n=4|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
+          "ObservedData": "Tucker_1981, iv, 195 mg, ID4"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "iv  250 mg, Tucker 1981, n=4|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+          "ObservedData": "Tucker_1981, iv, Urine, ID1"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "iv  250 mg, Tucker 1981, n=4|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+          "ObservedData": "Tucker_1981, iv, Urine, ID2"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "iv  250 mg, Tucker 1981, n=4|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+          "ObservedData": "Tucker_1981, iv, Urine, ID3"
+        },
+        {
+          "Scaling": "Linear",
+          "Path": "iv  250 mg, Tucker 1981, n=4|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+          "ObservedData": "Tucker_1981, iv, Urine, ID4"
+        }
+      ],
       "Individual": "European_Tucker_1981",
       "Compounds": [
         {
@@ -51321,14 +51373,14 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µg/ml",
+              "Unit": "µmol/l",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -51338,28 +51390,27 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             }
           ],
           "Curves": [
             {
-              "Name": "iv  250 mg, Tucker 1981, n=4-Metformin-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "Metformin-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
               "Y": "iv  250 mg, Tucker 1981, n=4|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "#0000FF",
+                "Color": "#FF0000",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "Tucker_1981, iv, 195 mg, ID1-Metformin-Peripheral Venous Blood-Plasma-conc ",
-              "X": "Tucker_1981, iv, 195 mg, ID1|time 2 ",
-              "Y": "Tucker_1981, iv, 195 mg, ID1|ObservedData|Peripheral Venous Blood|Plasma|Metformin|conc ",
+              "Name": "Tucker_1981, iv, 195 mg, ID3-Metformin-Peripheral Venous Blood-Plasma-conc (2)",
+              "X": "Tucker_1981, iv, 195 mg, ID3|time 2 ",
+              "Y": "Tucker_1981, iv, 195 mg, ID3|ObservedData|Peripheral Venous Blood|Plasma|Metformin|conc (2)",
               "CurveOptions": {
-                "VisibleInLegend": false,
-                "Color": "#C6D9F0",
-                "LegendIndex": 4,
+                "Color": "#FF8000",
+                "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -51369,21 +51420,19 @@
               "X": "Tucker_1981, iv, 195 mg, ID2|time 2 ",
               "Y": "Tucker_1981, iv, 195 mg, ID2|ObservedData|Peripheral Venous Blood|Plasma|Metformin|conc (1)",
               "CurveOptions": {
-                "VisibleInLegend": false,
-                "Color": "#C6D9F0",
-                "LegendIndex": 5,
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             },
             {
-              "Name": "Tucker_1981, iv, 195 mg, ID3-Metformin-Peripheral Venous Blood-Plasma-conc (2)",
-              "X": "Tucker_1981, iv, 195 mg, ID3|time 2 ",
-              "Y": "Tucker_1981, iv, 195 mg, ID3|ObservedData|Peripheral Venous Blood|Plasma|Metformin|conc (2)",
+              "Name": "Tucker_1981, iv, 195 mg, ID1-Metformin-Peripheral Venous Blood-Plasma-conc ",
+              "X": "Tucker_1981, iv, 195 mg, ID1|time 2 ",
+              "Y": "Tucker_1981, iv, 195 mg, ID1|ObservedData|Peripheral Venous Blood|Plasma|Metformin|conc ",
               "CurveOptions": {
-                "VisibleInLegend": false,
-                "Color": "#C6D9F0",
-                "LegendIndex": 6,
+                "Color": "#008000",
+                "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -51393,21 +51442,19 @@
               "X": "Tucker_1981, iv, 195 mg, ID4|time 2 ",
               "Y": "Tucker_1981, iv, 195 mg, ID4|ObservedData|Peripheral Venous Blood|Plasma|Metformin|conc (3)",
               "CurveOptions": {
-                "VisibleInLegend": false,
-                "Color": "#C6D9F0",
-                "LegendIndex": 7,
+                "Color": "#00C0C0",
+                "LegendIndex": 6,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             },
             {
-              "Name": "Tucker_1981, iv, 195 mg, n=4-Metformin-Peripheral Venous Blood-Plasma-plasma ",
+              "Name": "Tucker_1981, iv 195 mg, Plasma, n=4-Metformin-Peripheral Venous Blood-Plasma-plasma ",
               "X": "Tucker_1981, iv 195 mg, Plasma, n=4|time 2 ",
               "Y": "Tucker_1981, iv 195 mg, Plasma, n=4|ObservedData|Peripheral Venous Blood|Plasma|Metformin|plasma ",
               "CurveOptions": {
-                "VisibleInLegend": false,
-                "Color": "#0000FF",
-                "LegendIndex": 8,
+                "Color": "#C000C0",
+                "LegendIndex": 7,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -51427,11 +51474,11 @@
           },
           "Settings": {
             "SideMarginsEnabled": true,
-            "LegendPosition": "None",
-            "BackColor": "#00FFFFFF",
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Metformin-model-[11-20260804-1]-clean\niv  250 mg, Tucker 1981, n=4\n2026-10-20 18:06"
+          "OriginText": "Metformin-model-[11-20260804-1]-clean\niv  250 mg, Tucker 1981, n=4\n2026-10-20 19:34"
         },
         {
           "Axes": [
@@ -51475,61 +51522,9 @@
               "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
               "CurveOptions": {
                 "yAxisType": "Y2",
-                "Color": "#FF8000",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
-              "X": "Urine_iv|Time ",
-              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "VisibleInLegend": false,
-                "Color": "#FAC08F",
-                "LegendIndex": 9,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
-              "X": "Urine_iv|Time ",
-              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "VisibleInLegend": false,
-                "Color": "#FAC08F",
-                "LegendIndex": 10,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
-              "X": "Urine_iv|Time ",
-              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "VisibleInLegend": false,
-                "Color": "#FAC08F",
-                "LegendIndex": 11,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
-              "X": "Urine_iv|Time ",
-              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "VisibleInLegend": false,
-                "Color": "#FAC08F",
-                "LegendIndex": 12,
-                "LineStyle": "None",
-                "Symbol": "Circle"
               }
             },
             {
@@ -51538,9 +51533,56 @@
               "Y": "Tucker_1981, iv 195 mg, Urine, n=4|ObservedData|Kidney|Urine|Metformin|cumulative Urin excretion ",
               "CurveOptions": {
                 "yAxisType": "Y2",
-                "VisibleInLegend": false,
+                "Color": "#C000C0",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
+              "X": "Urine_iv|Time ",
+              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#00C0C0",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
+              "X": "Urine_iv|Time ",
+              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
+              "CurveOptions": {
+                "yAxisType": "Y2",
                 "Color": "#FF8000",
-                "LegendIndex": 13,
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
+              "X": "Urine_iv|Time ",
+              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF00FF",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
+              "X": "Urine_iv|Time ",
+              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#008000",
+                "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -51564,7 +51606,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Metformin-model-[11-20260804-1]-clean\niv  250 mg, Tucker 1981, n=4\n2026-10-20 18:43"
+          "OriginText": "Metformin-model-[11-20260804-1]-clean\niv  250 mg, Tucker 1981, n=4\n2026-10-20 19:34"
         }
       ]
     },

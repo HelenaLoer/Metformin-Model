@@ -42398,8 +42398,7 @@
       "Name": "iv 1000 mg, Sirtori 1978, n=5",
       "Model": "4Comp",
       "ObservedData": [
-        "Sirtori_1978, iv 723 mg, Plasma, n=5",
-        "Sirtori_1978, iv 723 mg, Urine, n=5"
+        "Sirtori_1978, iv 723 mg, Plasma, n=5"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -42713,19 +42712,6 @@
                 "VisibleInLegend": false,
                 "Color": "#0000FF",
                 "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
-              "X": "Urine_iv|Time ",
-              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "VisibleInLegend": false,
-                "Color": "#FF8000",
-                "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }

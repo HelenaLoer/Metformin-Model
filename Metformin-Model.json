@@ -42589,6 +42589,13 @@
         "Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
         "Organism|Kidney|Urine|Metformin|Fraction excreted to urine"
       ],
+      "OutputMappings": [
+        {
+          "Scaling": "Linear",
+          "Path": "iv 1000 mg, Sirtori 1978, n=5|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+          "ObservedData": "Sirtori_1978, iv 723 mg, Urine, n=5"
+        }
+      ],
       "Individual": "European_Sirtori_1978",
       "Compounds": [
         {
@@ -42718,13 +42725,12 @@
               }
             },
             {
-              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
-              "X": "Urine_iv|Time ",
-              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
+              "Name": "Sirtori_1978, iv 723 mg, Urine, n=5-Metformin-Kidney-Urine-Measurement",
+              "X": "Sirtori_1978, iv 723 mg, Urine, n=5|Time",
+              "Y": "Sirtori_1978, iv 723 mg, Urine, n=5|ObservedData|Kidney|Urine|Metformin|Measurement",
               "CurveOptions": {
                 "yAxisType": "Y2",
-                "VisibleInLegend": false,
-                "Color": "#FF8000",
+                "Color": "#FF0000",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -51053,10 +51059,6 @@
         "Tucker_1981, iv, 195 mg, ID3",
         "Tucker_1981, iv, 195 mg, ID4",
         "Tucker_1981, iv 195 mg, Plasma, n=4",
-        "Tucker_1981, iv, Urine, ID1",
-        "Tucker_1981, iv, Urine, ID2",
-        "Tucker_1981, iv, Urine, ID3",
-        "Tucker_1981, iv, Urine, ID4",
         "Tucker_1981, iv 195 mg, Urine, n=4"
       ],
       "Solver": {},
@@ -51434,58 +51436,6 @@
                 "VisibleInLegend": false,
                 "Color": "#0000FF",
                 "LegendIndex": 8,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
-              "X": "Urine_iv|Time ",
-              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "VisibleInLegend": false,
-                "Color": "#FAC08F",
-                "LegendIndex": 9,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
-              "X": "Urine_iv|Time ",
-              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "VisibleInLegend": false,
-                "Color": "#FAC08F",
-                "LegendIndex": 10,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
-              "X": "Urine_iv|Time ",
-              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "VisibleInLegend": false,
-                "Color": "#FAC08F",
-                "LegendIndex": 11,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
-              "X": "Urine_iv|Time ",
-              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "VisibleInLegend": false,
-                "Color": "#FAC08F",
-                "LegendIndex": 12,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -53672,23 +53622,8 @@
       "Name": "Sirtori_1978, iv 723 mg, Urine, n=5",
       "ExtendedProperties": [
         {
-          "Name": "Source",
-          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
-          "Type": "String"
-        },
-        {
-          "Name": "File",
-          "Value": "Urine_iv",
-          "Type": "String"
-        },
-        {
-          "Name": "Sheet",
-          "Value": "Tabelle1",
-          "Type": "String"
-        },
-        {
           "Name": "Molecule",
-          "Value": "Metformin1",
+          "Value": "Metformin",
           "Type": "String"
         },
         {
@@ -53709,14 +53644,14 @@
       ],
       "Columns": [
         {
-          "Name": "Dose ",
+          "Name": "Measurement",
           "QuantityInfo": {
-            "Path": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose "
+            "Path": "Sirtori_1978, iv 723 mg, Urine, n=5|ObservedData|Kidney|Urine|Metformin|Measurement"
           },
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.16
+            "MolWeight": 129.1636
           },
           "Values": [
             0.76
@@ -53725,9 +53660,9 @@
         }
       ],
       "BaseGrid": {
-        "Name": "Time ",
+        "Name": "Time",
         "QuantityInfo": {
-          "Path": "Urine_iv|Time ",
+          "Path": "Sirtori_1978, iv 723 mg, Urine, n=5|Time",
           "Type": "Time"
         },
         "DataInfo": {
@@ -62461,8 +62396,7 @@
     {
       "Name": "Sirtori 1978",
       "Classifiables": [
-        "Sirtori_1978, iv 723 mg, Plasma, n=5",
-        "Sirtori_1978, iv 723 mg, Urine, n=5"
+        "Sirtori_1978, iv 723 mg, Plasma, n=5"
       ]
     },
     {

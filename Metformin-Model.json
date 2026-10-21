@@ -1,5 +1,5 @@
 {
-  "Version": 80,
+  "Version": 79,
   "ExpressionProfiles": [
     {
       "Type": "Transporter",
@@ -42398,7 +42398,8 @@
       "Name": "iv 1000 mg, Sirtori 1978, n=5",
       "Model": "4Comp",
       "ObservedData": [
-        "Sirtori_1978, iv 723 mg, Plasma, n=5"
+        "Sirtori_1978, iv 723 mg, Plasma, n=5",
+        "Sirtori_1978, iv 723 mg, Urine, n=5"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -42715,6 +42716,19 @@
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
+            },
+            {
+              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
+              "X": "Urine_iv|Time ",
+              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "VisibleInLegend": false,
+                "Color": "#FF8000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
             }
           ],
           "Name": "Time Profile Analysis",
@@ -42747,7 +42761,10 @@
         "Pentikainen_1979, iv 390 mg, Urine, n=3",
         "Pentikainen_1979, 390 mg iv, KL",
         "Pentikainen_1979, 390 mg iv, PP",
-        "Pentikainen_1979, 390 mg iv, SR"
+        "Pentikainen_1979, 390 mg iv, SR",
+        "Pentikainen_1979, iv, Urine_KL",
+        "Pentikainen_1979, iv, Urine_PP",
+        "Pentikainen_1979, iv, Urine_SR"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -43129,6 +43146,45 @@
                 "VisibleInLegend": false,
                 "Color": "#C6D9F0",
                 "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
+              "X": "Urine_iv|Time ",
+              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "VisibleInLegend": false,
+                "Color": "#FAC08F",
+                "LegendIndex": 8,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
+              "X": "Urine_iv|Time ",
+              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "VisibleInLegend": false,
+                "Color": "#FAC08F",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
+              "X": "Urine_iv|Time ",
+              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "VisibleInLegend": false,
+                "Color": "#FAC08F",
+                "LegendIndex": 10,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -44391,6 +44447,7 @@
       "Name": "po  850 mg, Sambol 1996b, n=24, sol, fast",
       "Model": "4Comp",
       "ObservedData": [
+        "Sambol_1996b, po 662.9 mg, solution, Urine, n=24",
         "Sambol_1996b, po 662.9 mg, solution, Plasma, n=24"
       ],
       "Solver": {},
@@ -44680,6 +44737,19 @@
                 "Color": "#ECD33A",
                 "LegendIndex": 2,
                 "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "BI_0352_2082_fe_e_207-Metformin-Kidney-Urine-fe ",
+              "X": "BI_0352_2082_fe_e_207|SAMHEFD",
+              "Y": "BI_0352_2082_fe_e_207|ObservedData|Kidney|Urine|Metformin|fe ",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "VisibleInLegend": false,
+                "Color": "#ECD33A",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
               }
             },
             {
@@ -50978,12 +51048,16 @@
       "Name": "iv  250 mg, Tucker 1981, n=4",
       "Model": "4Comp",
       "ObservedData": [
-        "Tucker_1981, iv, 195 mg, ID4",
-        "Tucker_1981, iv, 195 mg, ID3",
-        "Tucker_1981, iv, 195 mg, ID2",
         "Tucker_1981, iv, 195 mg, ID1",
-        "Tucker_1981, iv 195 mg, Urine, n=4",
-        "Tucker_1981, iv 195 mg, Plasma, n=4"
+        "Tucker_1981, iv, 195 mg, ID2",
+        "Tucker_1981, iv, 195 mg, ID3",
+        "Tucker_1981, iv, 195 mg, ID4",
+        "Tucker_1981, iv 195 mg, Plasma, n=4",
+        "Tucker_1981, iv, Urine, ID1",
+        "Tucker_1981, iv, Urine, ID2",
+        "Tucker_1981, iv, Urine, ID3",
+        "Tucker_1981, iv, Urine, ID4",
+        "Tucker_1981, iv 195 mg, Urine, n=4"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -51176,39 +51250,21 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
-        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine"
-      ],
-      "OutputMappings": [
-        {
-          "Scaling": "Log",
-          "Path": "iv  250 mg, Tucker 1981, n=4|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Tucker_1981, iv 195 mg, Plasma, n=4"
-        },
-        {
-          "Scaling": "Linear",
-          "Path": "iv  250 mg, Tucker 1981, n=4|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-          "ObservedData": "Tucker_1981, iv 195 mg, Urine, n=4"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "iv  250 mg, Tucker 1981, n=4|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Tucker_1981, iv, 195 mg, ID1"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "iv  250 mg, Tucker 1981, n=4|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Tucker_1981, iv, 195 mg, ID2"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "iv  250 mg, Tucker 1981, n=4|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Tucker_1981, iv, 195 mg, ID3"
-        },
-        {
-          "Scaling": "Log",
-          "Path": "iv  250 mg, Tucker 1981, n=4|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
-          "ObservedData": "Tucker_1981, iv, 195 mg, ID4"
-        }
+        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+        "Organism|Bone|Metformin|Tissue",
+        "Organism|Brain|Metformin|Tissue",
+        "Organism|Gonads|Metformin|Tissue",
+        "Organism|Heart|Metformin|Tissue",
+        "Organism|Kidney|Metformin|Tissue",
+        "Organism|LargeIntestine|Metformin|Total Tissue (Large Intestine)",
+        "Organism|Liver|Metformin|Tissue (Liver)",
+        "Organism|Lung|Metformin|Tissue",
+        "Organism|Muscle|Metformin|Tissue",
+        "Organism|Pancreas|Metformin|Tissue",
+        "Organism|Skin|Metformin|Tissue",
+        "Organism|SmallIntestine|Metformin|Total Tissue (Small Intestine)",
+        "Organism|Spleen|Metformin|Tissue",
+        "Organism|Stomach|Metformin|Tissue"
       ],
       "Individual": "European_Tucker_1981",
       "Compounds": [
@@ -51279,14 +51335,14 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol/l",
+              "Unit": "µg/ml",
               "Dimension": "Concentration (molar)",
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             },
             {
@@ -51297,49 +51353,39 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
           "Curves": [
             {
-              "Name": "Metformin-Peripheral Venous Blood-Plasma-Concentration",
+              "Name": "iv  250 mg, Tucker 1981, n=4-Metformin-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
               "Y": "iv  250 mg, Tucker 1981, n=4|Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 1
               }
             },
             {
-              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "Name": "iv  250 mg, Tucker 1981, n=4-Metformin-Kidney-Urine-Fraction excreted to urine",
               "X": "Time",
               "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
               "CurveOptions": {
                 "yAxisType": "Y2",
-                "Color": "#0000FF",
+                "Color": "#FF8000",
                 "LegendIndex": 2,
                 "LineStyle": "Dash"
               }
             },
             {
-              "Name": "Tucker_1981, iv, 195 mg, ID4-Metformin-Peripheral Venous Blood-Plasma-conc (3)",
-              "X": "Tucker_1981, iv, 195 mg, ID4|time 2 ",
-              "Y": "Tucker_1981, iv, 195 mg, ID4|ObservedData|Peripheral Venous Blood|Plasma|Metformin|conc (3)",
+              "Name": "Tucker_1981, iv, 195 mg, ID1-Metformin-Peripheral Venous Blood-Plasma-conc ",
+              "X": "Tucker_1981, iv, 195 mg, ID1|time 2 ",
+              "Y": "Tucker_1981, iv, 195 mg, ID1|ObservedData|Peripheral Venous Blood|Plasma|Metformin|conc ",
               "CurveOptions": {
-                "Color": "#00C0C0",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Tucker_1981, iv, 195 mg, ID3-Metformin-Peripheral Venous Blood-Plasma-conc (2)",
-              "X": "Tucker_1981, iv, 195 mg, ID3|time 2 ",
-              "Y": "Tucker_1981, iv, 195 mg, ID3|ObservedData|Peripheral Venous Blood|Plasma|Metformin|conc (2)",
-              "CurveOptions": {
-                "Color": "#C000C0",
-                "LegendIndex": 7,
+                "VisibleInLegend": false,
+                "Color": "#C6D9F0",
+                "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -51349,44 +51395,252 @@
               "X": "Tucker_1981, iv, 195 mg, ID2|time 2 ",
               "Y": "Tucker_1981, iv, 195 mg, ID2|ObservedData|Peripheral Venous Blood|Plasma|Metformin|conc (1)",
               "CurveOptions": {
-                "Color": "#C04000",
+                "VisibleInLegend": false,
+                "Color": "#C6D9F0",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Tucker_1981, iv, 195 mg, ID3-Metformin-Peripheral Venous Blood-Plasma-conc (2)",
+              "X": "Tucker_1981, iv, 195 mg, ID3|time 2 ",
+              "Y": "Tucker_1981, iv, 195 mg, ID3|ObservedData|Peripheral Venous Blood|Plasma|Metformin|conc (2)",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#C6D9F0",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Tucker_1981, iv, 195 mg, ID4-Metformin-Peripheral Venous Blood-Plasma-conc (3)",
+              "X": "Tucker_1981, iv, 195 mg, ID4|time 2 ",
+              "Y": "Tucker_1981, iv, 195 mg, ID4|ObservedData|Peripheral Venous Blood|Plasma|Metformin|conc (3)",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#C6D9F0",
+                "LegendIndex": 7,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Tucker_1981, iv, 195 mg, n=4-Metformin-Peripheral Venous Blood-Plasma-plasma ",
+              "X": "Tucker_1981, iv 195 mg, Plasma, n=4|time 2 ",
+              "Y": "Tucker_1981, iv 195 mg, Plasma, n=4|ObservedData|Peripheral Venous Blood|Plasma|Metformin|plasma ",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#0000FF",
                 "LegendIndex": 8,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             },
             {
-              "Name": "Tucker_1981, iv, 195 mg, ID1-Metformin-Peripheral Venous Blood-Plasma-conc ",
-              "X": "Tucker_1981, iv, 195 mg, ID1|time 2 ",
-              "Y": "Tucker_1981, iv, 195 mg, ID1|ObservedData|Peripheral Venous Blood|Plasma|Metformin|conc ",
+              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
+              "X": "Urine_iv|Time ",
+              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
               "CurveOptions": {
-                "Color": "#00FF00",
+                "yAxisType": "Y2",
+                "VisibleInLegend": false,
+                "Color": "#FAC08F",
                 "LegendIndex": 9,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             },
             {
-              "Name": "Tucker_1981, iv 195 mg, Urine, n=4-Metformin-Kidney-Urine-cumulative Urin excretion ",
-              "X": "Tucker_1981, iv 195 mg, Urine, n=4|Time ",
-              "Y": "Tucker_1981, iv 195 mg, Urine, n=4|ObservedData|Kidney|Urine|Metformin|cumulative Urin excretion ",
+              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
+              "X": "Urine_iv|Time ",
+              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
               "CurveOptions": {
                 "yAxisType": "Y2",
-                "Color": "#808080",
+                "VisibleInLegend": false,
+                "Color": "#FAC08F",
                 "LegendIndex": 10,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             },
             {
-              "Name": "Tucker_1981, iv 195 mg, Plasma, n=4-Metformin-Peripheral Venous Blood-Plasma-plasma ",
-              "X": "Tucker_1981, iv 195 mg, Plasma, n=4|time 2 ",
-              "Y": "Tucker_1981, iv 195 mg, Plasma, n=4|ObservedData|Peripheral Venous Blood|Plasma|Metformin|plasma ",
+              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
+              "X": "Urine_iv|Time ",
+              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
               "CurveOptions": {
-                "Color": "#C0C000",
+                "yAxisType": "Y2",
+                "VisibleInLegend": false,
+                "Color": "#FAC08F",
                 "LegendIndex": 11,
                 "LineStyle": "None",
                 "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
+              "X": "Urine_iv|Time ",
+              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "VisibleInLegend": false,
+                "Color": "#FAC08F",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Tucker_1981, iv, Urine, n=4-Metformin-Kidney-Urine-cumulative Urin excretion ",
+              "X": "Tucker_1981, iv 195 mg, Urine, n=4|Time ",
+              "Y": "Tucker_1981, iv 195 mg, Urine, n=4|ObservedData|Kidney|Urine|Metformin|cumulative Urin excretion ",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "VisibleInLegend": false,
+                "Color": "#FF8000",
+                "LegendIndex": 13,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Metformin-Bone-Tissue-Concentration",
+              "X": "Time",
+              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Bone|Metformin|Tissue",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#FF0000",
+                "LegendIndex": 14
+              }
+            },
+            {
+              "Name": "Metformin-Brain-Tissue-Concentration",
+              "X": "Time",
+              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Brain|Metformin|Tissue",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#FF00FF",
+                "LegendIndex": 15
+              }
+            },
+            {
+              "Name": "Metformin-Gonads-Tissue-Concentration",
+              "X": "Time",
+              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Gonads|Metformin|Tissue",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#00C0C0",
+                "LegendIndex": 16
+              }
+            },
+            {
+              "Name": "Metformin-Heart-Tissue-Concentration",
+              "X": "Time",
+              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Heart|Metformin|Tissue",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#C000C0",
+                "LegendIndex": 17
+              }
+            },
+            {
+              "Name": "Metformin-Kidney-Tissue-Concentration",
+              "X": "Time",
+              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Kidney|Metformin|Tissue",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#C04000",
+                "LegendIndex": 18
+              }
+            },
+            {
+              "Name": "Metformin-Stomach-Tissue-Concentration",
+              "X": "Time",
+              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Stomach|Metformin|Tissue",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#00FF00",
+                "LegendIndex": 19
+              }
+            },
+            {
+              "Name": "Metformin-Small Intestine-Tissue-Concentration",
+              "X": "Time",
+              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|SmallIntestine|Metformin|Total Tissue (Small Intestine)",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#808080",
+                "LegendIndex": 20
+              }
+            },
+            {
+              "Name": "Metformin-Large Intestine-Tissue-Concentration",
+              "X": "Time",
+              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|LargeIntestine|Metformin|Total Tissue (Large Intestine)",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#C0C000",
+                "LegendIndex": 21
+              }
+            },
+            {
+              "Name": "Metformin-Liver-Tissue-Concentration",
+              "X": "Time",
+              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Liver|Metformin|Tissue (Liver)",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#8080FF",
+                "LegendIndex": 22
+              }
+            },
+            {
+              "Name": "Metformin-Lung-Tissue-Concentration",
+              "X": "Time",
+              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Lung|Metformin|Tissue",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#0000C0",
+                "LegendIndex": 23
+              }
+            },
+            {
+              "Name": "Metformin-Muscle-Tissue-Concentration",
+              "X": "Time",
+              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Muscle|Metformin|Tissue",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#00C000",
+                "LegendIndex": 24
+              }
+            },
+            {
+              "Name": "Metformin-Pancreas-Tissue-Concentration",
+              "X": "Time",
+              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Pancreas|Metformin|Tissue",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#C00000",
+                "LegendIndex": 25
+              }
+            },
+            {
+              "Name": "Metformin-Skin-Tissue-Concentration",
+              "X": "Time",
+              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Skin|Metformin|Tissue",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#FFFF00",
+                "LegendIndex": 26
+              }
+            },
+            {
+              "Name": "Metformin-Spleen-Tissue-Concentration",
+              "X": "Time",
+              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Spleen|Metformin|Tissue",
+              "CurveOptions": {
+                "Visible": false,
+                "Color": "#008080",
+                "LegendIndex": 27
               }
             }
           ],
@@ -51404,11 +51658,11 @@
           },
           "Settings": {
             "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
-            "BackColor": "#FFFFFF",
+            "LegendPosition": "None",
+            "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Metformin-model-[11-20260804-1]-clean\niv  250 mg, Tucker 1981, n=4\n2026-10-20 20:28"
+          "OriginText": "Metformin-model-[11-20260804-1]-clean\niv  250 mg, Tucker 1981, n=4\n2026-10-13 17:19"
         }
       ]
     },
@@ -51864,7 +52118,7 @@
       "ObservedData": [
         "Sambol_1995, po, 662.9 mg, Plasma, n=6",
         "Sambol_1995, po, 662.9 mg, Whole blood, n=6",
-        "Sambol_1995, po 662.9 mg, Urine, n=6"
+        "Sambol_1995, po, 662.9 mg, Urine, n=6"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -52223,8 +52477,23 @@
       "Name": "Somogyi_1987, po 195 mg, fed, Plasma, n=7",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Somogyi_1987.xlsx.194.95 mg, po, QD",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Somogyi_1987",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "194.95 mg, po, QD",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -52252,7 +52521,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.00979185,
@@ -52304,8 +52573,23 @@
       "Name": "Sirtori_1978, iv 723 mg, Plasma, n=5",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Sirtori_1978.xlsx.779.8 mg, iv, bolus",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Sirtori_1978",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "779.8 mg, iv, bolus",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -52336,7 +52620,7 @@
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 129.1636
+                "MolWeight": 129.16
               },
               "Values": [
                 7454.3,
@@ -52359,7 +52643,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             45.9723,
@@ -52405,8 +52689,23 @@
       "Name": "Pentikainen_1979, po 390 mg, Urine, n=5",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Pentikainen_1979_Urine.xlsx.389.9 mg, po, urine",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Pentikainen_1979_Urine",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "389.9 mg, po, urine",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -52434,7 +52733,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.0653806,
@@ -52481,8 +52780,23 @@
       "Name": "Pentikainen_1979, 390 mg iv, PP",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Pentikainen_1979 .xls.389.9 mg, iv, PP",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Pentikainen_1979 ",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "389.9 mg, iv, PP",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -52510,7 +52824,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             33.6103,
@@ -52574,8 +52888,23 @@
       "Name": "Pentikainen_1979, 390 mg iv, KL",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Pentikainen_1979 .xls.389.9 mg, iv, KL",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Pentikainen_1979 ",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "389.9 mg, iv, KL",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -52603,7 +52932,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             34.086338,
@@ -52669,8 +52998,23 @@
       "Name": "Pentikainen_1979, 390 mg po, SR",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Pentikainen_1979 .xls.389.9 mg, po, SR",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Pentikainen_1979 ",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "389.9 mg, po, SR",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -52698,7 +53042,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             1.44376993,
@@ -52748,8 +53092,23 @@
       "Name": "Pentikainen_1979, 390 mg po, PP",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Pentikainen_1979 .xls.389.9 mg, po, PP",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Pentikainen_1979 ",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "389.9 mg, po, PP",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -52777,7 +53136,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             1.70143354,
@@ -52827,8 +53186,23 @@
       "Name": "Pentikainen_1979, 390 mg po, RL",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Pentikainen_1979 .xls.389.9 mg, po, RL",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Pentikainen_1979 ",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "389.9 mg, po, RL",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -52856,7 +53230,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.853763044,
@@ -52904,8 +53278,23 @@
       "Name": "Pentikainen_1979, 390 mg po, TK",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Pentikainen_1979 .xls.389.9 mg, po, TK",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Pentikainen_1979 ",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "389.9 mg, po, TK",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -52933,7 +53322,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.63153404,
@@ -52981,8 +53370,23 @@
       "Name": "Johansson_2014, po 779.9 mg, Plasma, n=14",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Johansson_2014.xlsx.779.8 mg, po, SD",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Johansson_2014",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "779.8 mg, po, SD",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -53010,7 +53414,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.927285,
@@ -53060,8 +53464,23 @@
       "Name": "Pentikainen_1979, 390 mg po, KL",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Pentikainen_1979 .xls.389.9 mg, po, KL",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Pentikainen_1979 ",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "389.9 mg, po, KL",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -53089,7 +53508,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             1.12584,
@@ -53143,8 +53562,23 @@
       "Name": "Pentikainen_1979, 390 mg iv, SR",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Pentikainen_1979 .xls.389.9 mg, iv, SR",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Pentikainen_1979 ",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "389.9 mg, iv, SR",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -53172,7 +53606,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             31.77493,
@@ -53238,8 +53672,23 @@
       "Name": "Sirtori_1978, iv 723 mg, Urine, n=5",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -53267,7 +53716,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.76
@@ -53296,8 +53745,23 @@
       "Name": "Caille_1993, po 390 mg, fed, Plasma, n=24",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Caille_1993.xlsx.389.9mg,po,SD",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Caille_1993",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "389.9mg,po,SD",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -53325,7 +53789,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.560646,
@@ -53383,8 +53847,23 @@
       "Name": "Gusler_2001, po 390 mg, fed, Plasma, n=14",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Gusler_2001.xlsx.389.9mg,po,SD",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Gusler_2001",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "389.9mg,po,SD",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -53415,7 +53894,7 @@
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 129.1636
+                "MolWeight": 129.16
               },
               "Values": [
                 87.044,
@@ -53441,7 +53920,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.3583,
@@ -53493,8 +53972,23 @@
       "Name": "Pentikainen_1979, po 390 mg, Plasma, n=5",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observeddata\\Penti_MW.xlsx.Penti_po",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Penti_MW",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Penti_po",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -53525,7 +54019,7 @@
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 129.1636
+                "MolWeight": 129.16
               },
               "Values": [
                 0.35793075,
@@ -53553,7 +54047,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             1.07814264,
@@ -53608,6 +54102,21 @@
     {
       "Name": "Pentikainen_1979, iv 390 mg, Urine, n=3",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observeddata\\Penti_Urine_iv.xlsx.Penti_Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Penti_Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Penti_Urine_iv",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -53685,6 +54194,21 @@
       "Name": "Tucker_1981, iv 195 mg, Urine, n=4",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observeddata\\Tucker_Urine_iv.xlsx.Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -53747,8 +54271,23 @@
       "Name": "Pentikainen_1979, iv, Urine_KL",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -53776,7 +54315,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             1.011
@@ -53805,8 +54344,23 @@
       "Name": "Pentikainen_1979, iv, Urine_PP",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -53834,7 +54388,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             1.003
@@ -53863,8 +54417,23 @@
       "Name": "Pentikainen_1979, iv, Urine_SR",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -53892,7 +54461,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.984
@@ -53921,8 +54490,23 @@
       "Name": "Pentikainen_1979, po, Urine_KL",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -53950,7 +54534,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.664
@@ -53979,8 +54563,23 @@
       "Name": "Pentikainen_1979, po, Urine_PP",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -54008,7 +54607,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.485
@@ -54037,8 +54636,23 @@
       "Name": "Pentikainen_1979, po, Urine_SR",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -54066,7 +54680,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.611
@@ -54095,8 +54709,23 @@
       "Name": "Pentikainen_1979, po, Urine_TK",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -54124,7 +54753,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.427
@@ -54153,8 +54782,23 @@
       "Name": "Pentikainen_1979, po, Urine_RL",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -54182,7 +54826,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.394
@@ -54211,8 +54855,23 @@
       "Name": "Tucker_1981, iv, Urine, ID1",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -54240,7 +54899,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.737
@@ -54269,8 +54928,23 @@
       "Name": "Tucker_1981, iv, Urine, ID2",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -54298,7 +54972,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.839
@@ -54327,8 +55001,23 @@
       "Name": "Tucker_1981, iv, Urine, ID3",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -54356,7 +55045,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.818
@@ -54385,8 +55074,23 @@
       "Name": "Tucker_1981, iv, Urine, ID4",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -54414,7 +55118,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.763
@@ -54442,6 +55146,21 @@
     {
       "Name": "Tucker_1981, po 390 mg, fed, Plasma, n=4",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Nina\\Desktop\\Mappe1.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Mappe1",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -54515,6 +55234,21 @@
     {
       "Name": "Tucker_1981, po 1170 mg, fed, Plasma, n=4",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Nina\\Desktop\\Mappe1.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Mappe1",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -54591,8 +55325,23 @@
       "Name": "Tucker_1981, po 390 mg, fed, Urine, n=4",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -54620,7 +55369,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.31,
@@ -54651,8 +55400,23 @@
       "Name": "Tucker_1981, po 1170 mg, fed, Urine, n=4",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -54680,7 +55444,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.379
@@ -54708,6 +55472,21 @@
     {
       "Name": "Tucker_1981, iv 195 mg, Plasma, n=4",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Tucker iv.xlsx.Tucker iv",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Tucker iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tucker iv",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -54751,7 +55530,7 @@
             0.02275846
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -54781,6 +55560,21 @@
     {
       "Name": "Tucker_1981, iv, 195 mg, ID1",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Tucker_1981, iv (computed individual profiles).xlsx.Tucker iv data",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Tucker_1981, iv (computed individual profiles)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tucker iv data",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -54824,7 +55618,7 @@
             0.0297141466
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -54854,6 +55648,21 @@
     {
       "Name": "Tucker_1981, iv, 195 mg, ID2",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Tucker_1981, iv (computed individual profiles).xlsx.Tucker iv data",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Tucker_1981, iv (computed individual profiles)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tucker iv data",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -54897,7 +55706,7 @@
             0.0184083469
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -54927,6 +55736,21 @@
     {
       "Name": "Tucker_1981, iv, 195 mg, ID3",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Tucker_1981, iv (computed individual profiles).xlsx.Tucker iv data",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Tucker_1981, iv (computed individual profiles)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tucker iv data",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -54970,7 +55794,7 @@
             0.0135672968
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -55000,6 +55824,21 @@
     {
       "Name": "Tucker_1981, iv, 195 mg, ID4",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Tucker_1981, iv (computed individual profiles).xlsx.Tucker iv data",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Tucker_1981, iv (computed individual profiles)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tucker iv data",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -55043,7 +55882,7 @@
             0.032200478
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -55071,8 +55910,169 @@
       }
     },
     {
+      "Name": "Tucker_1981, po,  390 mg, Feces, n=4",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Metformin1",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Lumen",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Feces",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Dose ",
+          "QuantityInfo": {
+            "Path": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 129.16
+          },
+          "Values": [
+            0.269
+          ],
+          "Dimension": "Fraction"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Path": "Urine_iv|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          108.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Tucker_1981, po, 1170 mg, Feces, n=4",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Metformin1",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Lumen",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Feces",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Dose ",
+          "QuantityInfo": {
+            "Path": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 129.16
+          },
+          "Values": [
+            0.329
+          ],
+          "Dimension": "Fraction"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Path": "Urine_iv|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          108.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
       "Name": "Robert_2003, po 662.9 mg, fed, Plasma, n=6",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Nina\\Desktop\\Metformin RBC partitioning.xlsx.upload",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Metformin RBC partitioning",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "upload",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -55143,6 +56143,21 @@
       "Name": "Robert_2003, po 662.9 mg, Whole Blood, mean",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "C:\\Users\\Nina\\Desktop\\Metformin RBC partitioning.xlsx.upload",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Metformin RBC partitioning",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "upload",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -55211,6 +56226,21 @@
     {
       "Name": "Sambol_1995, po, 662.9 mg, Plasma, n=6",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Sambol_Plasma+WholeBlood.xlsx.Sambol_Plasma",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Sambol_Plasma+WholeBlood",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sambol_Plasma",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -55293,6 +56323,21 @@
       "Name": "Sambol_1995, po, 662.9 mg, Whole blood, n=6",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Sambol_Plasma+WholeBlood.xlsx.Sambol_Plasma",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Sambol_Plasma+WholeBlood",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sambol_Plasma",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -55373,11 +56418,26 @@
       }
     },
     {
-      "Name": "Sambol_1995, po 662.9 mg, Urine, n=6",
+      "Name": "Sambol_1995, po, 662.9 mg, Urine, n=6",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -55405,7 +56465,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.436
@@ -55433,6 +56493,21 @@
     {
       "Name": "Gormsen_2016, iv 1.445 µg, Arterial Plasma, n=4",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Gormsen Blood (iv, glaube ich).xlsx.Gormsen Blood (iv, glaube ich)",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Gormsen Blood (iv, glaube ich)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Gormsen Blood (iv, glaube ich)",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -55537,6 +56612,21 @@
       "Name": "Gormsen_2016, iv 1.445 µg, Arterial Whole Blood, n=4",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Gormsen Blood (iv, glaube ich).xlsx.Gormsen Blood (iv, glaube ich)",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Gormsen Blood (iv, glaube ich)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Gormsen Blood (iv, glaube ich)",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -55553,7 +56643,7 @@
         },
         {
           "Name": "Compartment",
-          "Value": "Whole Blood",
+          "Value": "Undefined",
           "Type": "String"
         }
       ],
@@ -55639,6 +56729,21 @@
     {
       "Name": "Gormsen_2016, iv 1.445 µg, Kidney, n=5",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Gormsen Kidney (iv).xlsx.Gormsen Kidney (iv)",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Gormsen Kidney (iv)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Gormsen Kidney (iv)",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -55751,6 +56856,21 @@
       "Name": "Gormsen_2016, iv 1.445 µg, Liver, n=5",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Gormsen Liver (iv).xlsx.Gormsen Organs (iv)2",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Gormsen Liver (iv)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Gormsen Organs (iv)2",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -55859,6 +56979,21 @@
     {
       "Name": "Gormsen_2016, iv 1.445 µg, Intestines, n=5",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Gormsen Intestines (iv).xlsx.Gormsen Intestines (iv)",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Gormsen Intestines (iv)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Gormsen Intestines (iv)",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -55969,6 +57104,21 @@
       "Name": "Gormsen_2016, iv 1.445 µg, Muscle, n=5",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Gormsen Muscle (iv).xlsx.Gormsen Organs (iv)",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Gormsen Muscle (iv)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Gormsen Organs (iv)",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -56073,8 +57223,169 @@
       }
     },
     {
+      "Name": "Gormsen_Tucker_iv, Feces, hypoth.",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observeddata\\Tucker_Urine_iv.xlsx.Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Metformin",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Kidney",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Urine",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "cumulative Urin excretion ",
+          "QuantityInfo": {
+            "Path": "Tucker_1981, iv, Urine, n=4|ObservedData|Kidney|Urine|Metformin|cumulative Urin excretion "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 129.1636
+          },
+          "Values": [
+            0.0
+          ],
+          "Dimension": "Fraction"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Path": "Tucker_1981, iv, Urine, n=4|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          5.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Gormsen_Tucker_iv, Urine, n=4",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observeddata\\Tucker_Urine_iv.xlsx.Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Metformin",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Kidney",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Urine",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "cumulative Urin excretion ",
+          "QuantityInfo": {
+            "Path": "Tucker_1981, iv, Urine, n=4|ObservedData|Kidney|Urine|Metformin|cumulative Urin excretion "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 129.1636
+          },
+          "Values": [
+            0.751942
+          ],
+          "Dimension": "Fraction"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Path": "Tucker_1981, iv, Urine, n=4|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          5.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
       "Name": "Gormsen_2016, po 0.8556 µg, Arterial Plasma, n=3",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Gormsen Plasma (po).xlsx.Gormsen Plasma (po)",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Gormsen Plasma (po)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Gormsen Plasma (po)",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -56154,6 +57465,21 @@
     {
       "Name": "Gormsen_2016, po 0.8556 µg, Muscle, n=5",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Gormsen Muscle (po).xlsx.Gormsen Muscle (po)",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Gormsen Muscle (po)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Gormsen Muscle (po)",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -56247,6 +57573,21 @@
     {
       "Name": "Gormsen_2016, po 0.8556 µg, Liver, n=5",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Gormsen Liver (po).xlsx.Gormsen Liver (po)",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Gormsen Liver (po)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Gormsen Liver (po)",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -56347,6 +57688,21 @@
       "Name": "Gormsen_2016, po 0.8556 µg, Kidney, n=5",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Gormsen Kidney (po).xlsx.Gormsen Kidney (po)",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Gormsen Kidney (po)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Gormsen Kidney (po)",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -56446,6 +57802,21 @@
       "Name": "Sambol_1996a, po 1325.8 mg, Plasma, n=9",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Sambol_2550mg (po).xlsx.Sambol_96 - 1700 mg tab, fast",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Sambol_2550mg (po)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sambol_96 - 1700 mg tab, fast",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -56531,6 +57902,21 @@
       "Name": "Sambol_1996a, po 662.9 mg, Plasma, n=9",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Sambol_2550mg (po).xlsx.Sambol_96 - 850 mg tab, fast",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Sambol_2550mg (po)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sambol_96 - 850 mg tab, fast",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -56613,6 +57999,21 @@
     {
       "Name": "Sambol_1996a, po 1988.745 mg, Plasma, n=9",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Sambol_2550mg (po).xlsx.Sambol_96 - 2550 mg tab, fast",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Sambol_2550mg (po)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sambol_96 - 2550 mg tab, fast",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -56699,6 +58100,21 @@
       "Name": "Sambol_1996a, po 662.9 mg, Urine, n=9",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Sambol_2550mg (po).xlsx.Sambol_96 - 850 mg tab, fast",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Sambol_2550mg (po)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sambol_96 - 850 mg tab, fast",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -56756,6 +58172,21 @@
     {
       "Name": "Sambol_1996a, po 1325.8 mg, Urine, n=9",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Sambol_2550mg (po).xlsx.Sambol_96 - 1700 mg tab, fast",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Sambol_2550mg (po)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sambol_96 - 1700 mg tab, fast",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -56815,6 +58246,21 @@
       "Name": "Sambol_1996a, po 1988.745 mg, Urine, n=9",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Sambol_2550mg (po).xlsx.Sambol_96 - 2550 mg tab, fast",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Sambol_2550mg (po)",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sambol_96 - 2550 mg tab, fast",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -56872,6 +58318,21 @@
     {
       "Name": "Sambol_1996b, po 662.9 mg, Plasma, n=24",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Sambol 1996b tab fast.xlsx.Sambol 1996b 850mg tab fast",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Sambol 1996b tab fast",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sambol 1996b 850mg tab fast",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -56947,8 +58408,221 @@
       }
     },
     {
+      "Name": "Sambol_1996b, po tab fed 662.915 mg, n=24",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Sambol 1996b tab fed.xlsx.Sambol 1996b 850mg tab fed",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Sambol 1996b tab fed",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sambol 1996b 850mg tab fed",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Metformin",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Plasma ",
+          "QuantityInfo": {
+            "Path": "Sambol_1996b, po tab fed 662.915 mg, n=24|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Plasma "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 129.1636
+          },
+          "Values": [
+            0.462671876,
+            0.5654155,
+            0.6362936,
+            0.7333604,
+            0.8159355,
+            0.8558467,
+            0.8871992,
+            0.920294046,
+            0.67933166,
+            0.445745915,
+            0.172590539,
+            0.07974335,
+            0.0299618114
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "µg/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time fed ",
+        "QuantityInfo": {
+          "Path": "Sambol_1996b, po tab fed 662.915 mg, n=24|Time fed ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.6325732,
+          0.8755693,
+          1.12003684,
+          1.61065352,
+          2.1429956,
+          2.6352942,
+          3.12780285,
+          4.11345053,
+          6.13256741,
+          8.153787,
+          12.1159258,
+          16.1160069,
+          24.106081
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Sambol_1996b, po sol fast 662.915 mg, n=24",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Sambol 1996b sol fast.xlsx.Sambol 1996b 850mg sol fast",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Sambol 1996b sol fast",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sambol 1996b 850mg sol fast",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Metformin",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Plasma ",
+          "QuantityInfo": {
+            "Path": "Sambol_1996b, po sol fast 662.915 mg, n=24|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Plasma "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 129.1636
+          },
+          "Values": [
+            0.853319,
+            0.9602874,
+            1.018864,
+            1.09387958,
+            1.26075137,
+            1.36998081,
+            1.3871063,
+            1.37175024,
+            1.23544729,
+            0.720537663,
+            0.4104711,
+            0.164648235,
+            0.07697498,
+            0.0303167775
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "µg/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Path": "Sambol_1996b, po sol fast 662.915 mg, n=24|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.250073,
+          0.494540542,
+          0.7400591,
+          1.02646232,
+          1.517079,
+          2.00874686,
+          2.50167561,
+          2.99502516,
+          4.02429,
+          6.00651646,
+          8.030257,
+          11.9917669,
+          15.9916382,
+          23.9808712
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
       "Name": "Sambol_1996b, po 662.9 mg, Urine, n=21",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\BI Cocktail\\0352_2082_PK5_V1_150213.xlsx.500mg_Metformin_tab",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "0352_2082_PK5_V1_150213",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "500mg_Metformin_tab",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -56970,8 +58644,28 @@
           "Type": "String"
         },
         {
+          "Name": "Study Id",
+          "Value": "0352_2082",
+          "Type": "String"
+        },
+        {
           "Name": "Gender",
-          "Value": "Undefined",
+          "Value": "Male",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "500 mg",
+          "Type": "String"
+        },
+        {
+          "Name": "Route",
+          "Value": "po tab",
+          "Type": "String"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "207",
           "Type": "String"
         }
       ],
@@ -57013,6 +58707,21 @@
       "Name": "Sambol_1996b, po 662.9 mg, solution, Urine, n=24",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\BI Cocktail\\0352_2082_PK5_V1_150213.xlsx.500mg_Metformin_tab",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "0352_2082_PK5_V1_150213",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "500mg_Metformin_tab",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -57033,8 +58742,28 @@
           "Type": "String"
         },
         {
+          "Name": "Study Id",
+          "Value": "0352_2082",
+          "Type": "String"
+        },
+        {
           "Name": "Gender",
-          "Value": "Undefined",
+          "Value": "Male",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "500 mg",
+          "Type": "String"
+        },
+        {
+          "Name": "Route",
+          "Value": "po tab",
+          "Type": "String"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "207",
           "Type": "String"
         }
       ],
@@ -57076,6 +58805,21 @@
       "Name": "Sambol_1996b, po 662.9 mg, fed, Urine, n=21",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\BI Cocktail\\0352_2082_PK5_V1_150213.xlsx.500mg_Metformin_tab",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "0352_2082_PK5_V1_150213",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "500mg_Metformin_tab",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -57096,8 +58840,28 @@
           "Type": "String"
         },
         {
+          "Name": "Study Id",
+          "Value": "0352_2082",
+          "Type": "String"
+        },
+        {
           "Name": "Gender",
-          "Value": "Undefined",
+          "Value": "Male",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "500 mg",
+          "Type": "String"
+        },
+        {
+          "Name": "Route",
+          "Value": "po tab",
+          "Type": "String"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "207",
           "Type": "String"
         }
       ],
@@ -57139,6 +58903,21 @@
       "Name": "Johansson_2014, po 779.9 mg, Urine, n=14",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\BI Cocktail\\0352_2082_PK5_V1_150213.xlsx.500mg_Metformin_tab",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "0352_2082_PK5_V1_150213",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "500mg_Metformin_tab",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -57159,8 +58938,28 @@
           "Type": "String"
         },
         {
+          "Name": "Study Id",
+          "Value": "0352_2082",
+          "Type": "String"
+        },
+        {
           "Name": "Gender",
-          "Value": "Undefined",
+          "Value": "Male",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "500 mg",
+          "Type": "String"
+        },
+        {
+          "Name": "Route",
+          "Value": "po tab",
+          "Type": "String"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "207",
           "Type": "String"
         }
       ],
@@ -57199,8 +58998,96 @@
       }
     },
     {
+      "Name": "Tucker_1981, iv,  390 mg, Feces, n=4",
+      "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Urine_iv.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Metformin1",
+          "Type": "String"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human",
+          "Type": "String"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Lumen",
+          "Type": "String"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Feces",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Dose ",
+          "QuantityInfo": {
+            "Path": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose "
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 129.16
+          },
+          "Values": [
+            0.0
+          ],
+          "Dimension": "Fraction"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time ",
+        "QuantityInfo": {
+          "Path": "Urine_iv|Time ",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          108.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
       "Name": "Cho_2011, po 779.9 mg + 584.9 mg, Plasma, n=16",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Cho, 2011, Metformin + Rifampicin, OCT1.xlsx.Cho, 2011, Metformin + Rifampic",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Cho, 2011, Metformin + Rifampicin, OCT1",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Cho, 2011, Metformin + Rifampic",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -57312,6 +59199,21 @@
       "Name": "Sambol_1996b, po 390 mg, Plasma, n=24",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "C:\\Users\\Nina\\Desktop\\Sambol 1996b 500 mg tab fast.xlsx.Sambol 1996b sol tab fast fed",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Sambol 1996b 500 mg tab fast",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sambol 1996b sol tab fast fed",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -57391,6 +59293,21 @@
       "Name": "Sambol_1996b, po 390 mg, Urine, n=21",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\BI Cocktail\\0352_2082_PK5_V1_150213.xlsx.500mg_Metformin_tab",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "0352_2082_PK5_V1_150213",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "500mg_Metformin_tab",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -57411,8 +59328,28 @@
           "Type": "String"
         },
         {
+          "Name": "Study Id",
+          "Value": "0352_2082",
+          "Type": "String"
+        },
+        {
           "Name": "Gender",
-          "Value": "Undefined",
+          "Value": "Male",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "500 mg",
+          "Type": "String"
+        },
+        {
+          "Name": "Route",
+          "Value": "po tab",
+          "Type": "String"
+        },
+        {
+          "Name": "Patient Id",
+          "Value": "207",
           "Type": "String"
         }
       ],
@@ -57453,6 +59390,21 @@
     {
       "Name": "Somogyi_1987, po 195 mg, fed, Urine, n=7",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observeddata\\Tucker_Urine_iv.xlsx.Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tucker_Urine_iv",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -57512,6 +59464,21 @@
       "Name": "Wang_2008, po 390 mg, Urine, n=6",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observeddata\\Tucker_Urine_iv.xlsx.Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -57569,6 +59536,21 @@
     {
       "Name": "Wang_2008, po 390 mg, Plasma, n=6",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Nina\\Desktop\\Wang_2008, Metformin, fast, n=6.xlsx.Wang_2008, Metformin, fast, n",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Wang_2008, Metformin, fast, n=6",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Wang_2008, Metformin, fast, n",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -57680,6 +59662,21 @@
       "Name": "Gusler_2001, po fed 390 mg, Urine, n=14",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observeddata\\Tucker_Urine_iv.xlsx.Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tucker_Urine_iv",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -57738,6 +59735,21 @@
       "Name": "Stopfer_2016, po 390 mg, Urine, n=20",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\METFORMIN\\DATA_Metformin\\R_scripts\\0352_2082_Metformin_500mg_Tablet_Urine_mean.csv.Sheet1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "0352_2082_Metformin_500mg_Tablet_Urine_mean",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -57755,6 +59767,11 @@
         {
           "Name": "Compartment",
           "Value": "Urine",
+          "Type": "String"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "0352_2082",
           "Type": "String"
         }
       ],
@@ -57801,6 +59818,21 @@
     {
       "Name": "Boehringer_2018, po 390 mg, solution, Urine, n=13",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "C:\\Users\\Nina\\Desktop\\0352_2100_Metformin_500mg_sol_mean, Urine, n=13.xlsx.0352_2100_Metformin_500mg_sol",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "0352_2100_Metformin_500mg_sol_mean, Urine, n=13",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "0352_2100_Metformin_500mg_sol",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -57868,6 +59900,21 @@
       "Name": "Stopfer_2018, po 7.8 mg, solution, Urine, n=24",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\METFORMIN\\DATA_Metformin\\R_scripts\\0352_2096_Metformin_10mg_Solution_Urine_mean_24.csv.Sheet1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "0352_2096_Metformin_10mg_Solution_Urine_mean_24",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -57885,6 +59932,11 @@
         {
           "Name": "Compartment",
           "Value": "Urine",
+          "Type": "String"
+        },
+        {
+          "Name": "Study Id",
+          "Value": "0352_2096",
           "Type": "String"
         }
       ],
@@ -57931,6 +59983,21 @@
     {
       "Name": "Pentikainen_1979, iv 390 mg, Plasma, n=3",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\METFORMIN\\DATA_Metformin\\Metformin_iv_observed_data\\Pentikainen_1979, 390 mg iv, mean.xlsx.Tabelle1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Pentikainen_1979, 390 mg iv, mean",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -58066,8 +60133,23 @@
       "Name": "Najib_2002, po 390 mg, Plasma, n=24",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Najib_2002.xlsx.389.9mg,SD,po_Glucophage",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Najib_2002",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "389.9mg,SD,po_Glucophage",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -58095,7 +60177,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.757234,
@@ -58151,8 +60233,23 @@
       "Name": "DiCicco_2000, po 390 mg bid, fed, Plasma, n=14",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\DiCicco_2000.xlsx.389.9mg,po,QD",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "DiCicco_2000",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "389.9mg,po,QD",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -58183,7 +60280,7 @@
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 129.1636
+                "MolWeight": 129.16
               },
               "Values": [
                 93.22,
@@ -58211,7 +60308,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.237288013,
@@ -58266,6 +60363,21 @@
     {
       "Name": "Jang_2016, po 584.9 mg + 390 mg, Plasma, n=20",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\pbpk_ddi\\Metformin_Denise\\obs_data\\digitize\\Jang 2016.xlsx.Young",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Jang 2016",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Young",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -58377,6 +60489,21 @@
       "Name": "Kim_2014, po 584.9 mg + 390 mg, Plasma, n=24",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\pbpk_ddi\\Metformin_Denise\\obs_data\\Kim_2014.xlsx.584.85+389.9 mg, po, SD",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Kim_2014",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "584.85+389.9 mg, po, SD",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -58487,6 +60614,21 @@
       "Name": "Manitpisitkul_2014, po 390 mg, bid, Plasma, n=18",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\pbpk_ddi\\Metformin_Denise\\obs_data\\digitize\\Manitpisitkul_2014.xlsx.389.9 mg, po, BID",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Manitpisitkul_2014",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "389.9 mg, po, BID",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -58593,6 +60735,21 @@
     {
       "Name": "Oh_2016, po 584.9 mg + 390 mg, Plasma, n=20",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\pbpk_ddi\\Metformin_Denise\\obs_data\\digitize\\Oh 2016.xlsx.Tabelle1 day2",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Oh 2016",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1 day2",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -58704,8 +60861,23 @@
       "Name": "Chen_2009, po 662.9 mg, Plasma, n=14",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Chen_2009.xlsx.662.83 mg, po, SD, 808 G-G",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Chen_2009",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "662.83 mg, po, SD, 808 G-G",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -58736,7 +60908,7 @@
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 129.1636
+                "MolWeight": 129.16
               },
               "Values": [
                 275.375,
@@ -58759,7 +60931,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             0.645661,
@@ -58805,8 +60977,23 @@
       "Name": "Cho_2014, po 779.9 mg + 584.9 mg, Plasma, n=12",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Cho_2014.xlsx.779.8+662.83 mg, po, SD",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Cho_2014",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "779.8+662.83 mg, po, SD",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -58837,7 +61024,7 @@
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 129.1636
+                "MolWeight": 129.16
               },
               "Values": [
                 390.585,
@@ -58863,7 +61050,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             1.2023499,
@@ -58914,6 +61101,21 @@
     {
       "Name": "Ding_2014, po 779.9 mg + 584.9 mg, Plasma, n=20",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\pbpk_ddi\\Metformin_Denise\\obs_data\\digitize\\Ding 2014.xlsx.Tabelle1 day2",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Ding 2014",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Tabelle1 day2",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -59028,8 +61230,23 @@
       "Name": "Morrissey_2016, po 662.9 mg, Plasma, n=12",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\small_projects\\Metformin\\observed data\\Morrissey_2016.xlsx.662.83 mg, po, SD",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Morrissey_2016",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "662.83 mg, po, SD",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
-          "Value": "Metformin",
+          "Value": "Metformin1",
           "Type": "String"
         },
         {
@@ -59060,7 +61277,7 @@
               "DataInfo": {
                 "Origin": "ObservationAuxiliary",
                 "AuxiliaryType": "ArithmeticStdDev",
-                "MolWeight": 129.1636
+                "MolWeight": 129.16
               },
               "Values": [
                 525.608154,
@@ -59090,7 +61307,7 @@
           "DataInfo": {
             "Origin": "Observation",
             "AuxiliaryType": "Undefined",
-            "MolWeight": 129.1636
+            "MolWeight": 129.16
           },
           "Values": [
             1.37779,
@@ -59149,6 +61366,21 @@
     {
       "Name": "Sambol_1996a, po 662.9 mg tid, Plasma, n=9",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\pbpk_ddi\\Metformin_Denise\\obs_data\\Sambol_1996a_850mgTID.csv.Sheet1",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Sambol_1996a_850mgTID",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sheet1",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -59234,6 +61466,21 @@
     {
       "Name": "Gan_2016, po 779.9 mg qd, Plasma, n=27",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\pbpk_ddi\\Metformin_Denise\\obs_data\\Gan_2016.xlsx.1000 mg, po QD",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Gan_2016",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "1000 mg, po QD",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -59341,6 +61588,21 @@
     {
       "Name": "Hibma_2016, po 779.9 mg + 662.9 mg, Plasma, n=12",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\pbpk_ddi\\Metformin_Denise\\obs_data\\digitize\\Hibma 2016.xlsx.plasma day2",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Hibma 2016",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "plasma day2",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -59464,6 +61726,21 @@
       "Name": "Hibma_2016, po 779.9 mg + 662.9 mg, Urine, n=12",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\pbpk_ddi\\Metformin_Denise\\obs_data\\digitize\\Hibma 2016.xlsx.fe urine day2",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Hibma 2016",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "fe urine day2",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -59558,6 +61835,21 @@
     {
       "Name": "Stopfer_2018, po 7.8 mg, solution, Plasma, n=24",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\pbpk_ddi\\Metformin_Denise\\obs_data\\Github neu\\Stopfer_2018, po 7.8 mg, solution, Plasma, n=24.xlsx.Stopfer_2018, po 7.8 mg, solu",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Stopfer_2018, po 7.8 mg, solution, Plasma, n=24",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Stopfer_2018, po 7.8 mg, solu",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -59672,6 +61964,21 @@
       "Name": "Stopfer_2016, po 390 mg, Plasma, n=20",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\pbpk_ddi\\Metformin_Denise\\obs_data\\Github neu\\Stopfer_2016, po 390 mg, Plasma, n=20.xlsx.Stopfer_2016, po 390 mg, Plas",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Stopfer_2016, po 390 mg, Plasma, n=20",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Stopfer_2016, po 390 mg, Plas",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -59781,6 +62088,21 @@
     {
       "Name": "Boehringer_2018, po 390 mg, solution, Plasma, n=13",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\pbpk_ddi\\Metformin_Denise\\obs_data\\Github neu\\Boehringer_2018, po 390 mg, solution, Plasma, n=13.xlsx.Boehringer_2018, po 390 mg, s",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Boehringer_2018, po 390 mg, solution, Plasma, n=13",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Boehringer_2018, po 390 mg, s",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -59895,6 +62217,21 @@
       "Name": "Sambol_1996b, po 662.9 mg, solution, Plasma, n=24",
       "ExtendedProperties": [
         {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Sambol 1996b sol fast.xlsx.Sambol 1996b 850mg sol fast",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Sambol 1996b sol fast",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sambol 1996b 850mg sol fast",
+          "Type": "String"
+        },
+        {
           "Name": "Molecule",
           "Value": "Metformin",
           "Type": "String"
@@ -59973,6 +62310,21 @@
     {
       "Name": "Sambol_1996b, po 662.9 mg, fed, Plasma, n=24",
       "ExtendedProperties": [
+        {
+          "Name": "Source",
+          "Value": "Z:\\projects\\consulting\\BOEHRINGER\\TRANSPORTER_COCKTAIL_PBPK\\DATA\\Digitized\\Sambol 1996b tab fed.xlsx.Sambol 1996b 850mg tab fed",
+          "Type": "String"
+        },
+        {
+          "Name": "File",
+          "Value": "Sambol 1996b tab fed",
+          "Type": "String"
+        },
+        {
+          "Name": "Sheet",
+          "Value": "Sambol 1996b 850mg tab fed",
+          "Type": "String"
+        },
         {
           "Name": "Molecule",
           "Value": "Metformin",
@@ -60058,6 +62410,8 @@
         "Gormsen_2016, iv 1.445 µg, Liver, n=5",
         "Gormsen_2016, iv 1.445 µg, Intestines, n=5",
         "Gormsen_2016, iv 1.445 µg, Muscle, n=5",
+        "Gormsen_Tucker_iv, Feces, hypoth.",
+        "Gormsen_Tucker_iv, Urine, n=4",
         "Gormsen_2016, po 0.8556 µg, Kidney, n=5",
         "Gormsen_2016, po 0.8556 µg, Liver, n=5",
         "Gormsen_2016, po 0.8556 µg, Muscle, n=5",
@@ -60101,7 +62455,7 @@
       "Classifiables": [
         "Sambol_1995, po, 662.9 mg, Plasma, n=6",
         "Sambol_1995, po, 662.9 mg, Whole blood, n=6",
-        "Sambol_1995, po 662.9 mg, Urine, n=6"
+        "Sambol_1995, po, 662.9 mg, Urine, n=6"
       ]
     },
     {
@@ -60127,7 +62481,10 @@
         "Tucker_1981, iv, 195 mg, ID1",
         "Tucker_1981, iv, 195 mg, ID2",
         "Tucker_1981, iv, 195 mg, ID3",
-        "Tucker_1981, iv, 195 mg, ID4"
+        "Tucker_1981, iv, 195 mg, ID4",
+        "Tucker_1981, po,  390 mg, Feces, n=4",
+        "Tucker_1981, po, 1170 mg, Feces, n=4",
+        "Tucker_1981, iv,  390 mg, Feces, n=4"
       ]
     },
     {
@@ -60166,7 +62523,9 @@
     {
       "Name": "Sambol 1996b",
       "Classifiables": [
+        "Sambol_1996b, po sol fast 662.915 mg, n=24",
         "Sambol_1996b, po 662.9 mg, Plasma, n=24",
+        "Sambol_1996b, po tab fed 662.915 mg, n=24",
         "Sambol_1996b, po 662.9 mg, Urine, n=21",
         "Sambol_1996b, po 662.9 mg, solution, Urine, n=24",
         "Sambol_1996b, po 662.9 mg, fed, Urine, n=21",

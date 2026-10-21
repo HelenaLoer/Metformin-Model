@@ -42747,10 +42747,7 @@
         "Pentikainen_1979, iv 390 mg, Urine, n=3",
         "Pentikainen_1979, 390 mg iv, KL",
         "Pentikainen_1979, 390 mg iv, PP",
-        "Pentikainen_1979, 390 mg iv, SR",
-        "Pentikainen_1979, iv, Urine_KL",
-        "Pentikainen_1979, iv, Urine_PP",
-        "Pentikainen_1979, iv, Urine_SR"
+        "Pentikainen_1979, 390 mg iv, SR"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -43132,45 +43129,6 @@
                 "VisibleInLegend": false,
                 "Color": "#C6D9F0",
                 "LegendIndex": 7,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
-              "X": "Urine_iv|Time ",
-              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "VisibleInLegend": false,
-                "Color": "#FAC08F",
-                "LegendIndex": 8,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
-              "X": "Urine_iv|Time ",
-              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "VisibleInLegend": false,
-                "Color": "#FAC08F",
-                "LegendIndex": 9,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Urine_iv-Metformin1-Kidney-Urine-Dose ",
-              "X": "Urine_iv|Time ",
-              "Y": "Urine_iv|ObservedData|Kidney|Urine|Metformin1|Dose ",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "VisibleInLegend": false,
-                "Color": "#FAC08F",
-                "LegendIndex": 10,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -44433,7 +44391,6 @@
       "Name": "po  850 mg, Sambol 1996b, n=24, sol, fast",
       "Model": "4Comp",
       "ObservedData": [
-        "Sambol_1996b, po 662.9 mg, solution, Urine, n=24",
         "Sambol_1996b, po 662.9 mg, solution, Plasma, n=24"
       ],
       "Solver": {},
@@ -44723,19 +44680,6 @@
                 "Color": "#ECD33A",
                 "LegendIndex": 2,
                 "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "BI_0352_2082_fe_e_207-Metformin-Kidney-Urine-fe ",
-              "X": "BI_0352_2082_fe_e_207|SAMHEFD",
-              "Y": "BI_0352_2082_fe_e_207|ObservedData|Kidney|Urine|Metformin|fe ",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "VisibleInLegend": false,
-                "Color": "#ECD33A",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
               }
             },
             {

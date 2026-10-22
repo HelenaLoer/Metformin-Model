@@ -38834,8 +38834,7 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
-        "Organism|PeripheralVenousBlood|Metformin|Whole Blood (Peripheral Venous Blood)",
-        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine"
+        "Organism|PeripheralVenousBlood|Metformin|Whole Blood (Peripheral Venous Blood)"
       ],
       "OutputMappings": [
         {
@@ -38935,12 +38934,9 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0001757567,
-              "Max": 0.2416553,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
@@ -38971,7 +38967,7 @@
               "X": "Robert_2003, po 662.9 mg, fed, Plasma, n=6|Time",
               "Y": "Robert_2003, po 662.9 mg, fed, Plasma, n=6|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 12,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -38982,26 +38978,14 @@
               "X": "Robert_2003, po 662.9 mg, Whole Blood, mean|Time",
               "Y": "Robert_2003, po 662.9 mg, Whole Blood, mean|ObservedData|Peripheral Venous Blood||Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#008000",
+                "Color": "#00C000",
                 "LegendIndex": 13,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
-            },
-            {
-              "Name": "po  850 mg, Robert 2003, WholeBlood, n=6, tab, fed-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po  850 mg, Robert 2003, WholeBlood, n=6, tab, fed|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Visible": false,
-                "Color": "#FF8000",
-                "LegendIndex": 11,
-                "LineStyle": "Dash"
-              }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 850 mg_Robert 2003",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -39019,7 +39003,8 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  850 mg, Robert 2003, WholeBlood, n=6, tab, fed\n2026-10-13 18:41"
+          "Title": "Metformin - po (tab) 850 mg_Robert 2003",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  850 mg, Robert 2003, WholeBlood, n=6, tab, fed\n2026-10-22 13:53"
         }
       ]
     },
@@ -39295,12 +39280,9 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0,
-              "Max": 1.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
@@ -39318,41 +39300,18 @@
               }
             },
             {
-              "Name": "po  850 mg, Sambol 1996a, n=9, tab, fast-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po  850 mg, Sambol 1996a, n=9, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
               "Name": "Sambol_1996a, po 662.9 mg, Plasma, n=9-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Sambol_1996a, po 662.9 mg, Plasma, n=9|Time",
               "Y": "Sambol_1996a, po 662.9 mg, Plasma, n=9|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Sambol_1996a, po 662.9 mg, Urine, n=9-Metformin-Kidney-Urine-Measurement",
-              "X": "Sambol_1996a, po 662.9 mg, Urine, n=9|Time",
-              "Y": "Sambol_1996a, po 662.9 mg, Urine, n=9|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 850 mg_Sambol 1996a",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -39370,7 +39329,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 850 mg_Sambol 1996a",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  850 mg, Sambol 1996a, n=9, tab, fast\n2026-10-13 18:28"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po  850 mg, Sambol 1996a, n=9, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Sambol_1996a, po 662.9 mg, Urine, n=9-Metformin-Kidney-Urine-Measurement",
+              "X": "Sambol_1996a, po 662.9 mg, Urine, n=9|Time",
+              "Y": "Sambol_1996a, po 662.9 mg, Urine, n=9|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Metformin - po (tab) 850 mg_Sambol 1996a - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (tab) 850 mg_Sambol 1996a - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  850 mg, Sambol 1996a, n=9, tab, fast\n2026-10-22 13:57"
         }
       ]
     },
@@ -39641,17 +39682,14 @@
               "Max": 2.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0,
-              "Max": 1.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
@@ -39669,41 +39707,18 @@
               }
             },
             {
-              "Name": "po  850 mg, Sambol 1996b, n=24, tab, fast-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po  850 mg, Sambol 1996b, n=24, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Sambol_1996b, po 662.9 mg, Urine, n=21-Metformin-Kidney-Urine-Measurement",
-              "X": "Sambol_1996b, po 662.9 mg, Urine, n=21|Time",
-              "Y": "Sambol_1996b, po 662.9 mg, Urine, n=21|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Sambol_1996b, po 662.9 mg, Plasma, n=24-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Sambol_1996b, po 662.9 mg, Plasma, n=24|Time",
               "Y": "Sambol_1996b, po 662.9 mg, Plasma, n=24|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 850 mg_Sambol 1996b",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -39721,7 +39736,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 850 mg_Sambol 1996b",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  850 mg, Sambol 1996b, n=24, tab, fast\n2026-10-13 18:29"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sambol_1996b, po 662.9 mg, Urine, n=21-Metformin-Kidney-Urine-Measurement",
+              "X": "Sambol_1996b, po 662.9 mg, Urine, n=21|Time",
+              "Y": "Sambol_1996b, po 662.9 mg, Urine, n=21|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po  850 mg, Sambol 1996b, n=24, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Metformin - po (tab) 850 mg_Sambol 1996b - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (tab) 850 mg_Sambol 1996b - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  850 mg, Sambol 1996b, n=24, tab, fast\n2026-10-22 13:28"
         }
       ]
     },
@@ -39993,7 +40090,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -40014,41 +40110,18 @@
               }
             },
             {
-              "Name": "po  850 mg, Sambol 1996b, n=24, tab, fed-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po  850 mg, Sambol 1996b, n=24, tab, fed|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Sambol_1996b, po 662.9 mg, fed, Urine, n=21-Metformin-Kidney-Urine-Measurement",
-              "X": "Sambol_1996b, po 662.9 mg, fed, Urine, n=21|Time",
-              "Y": "Sambol_1996b, po 662.9 mg, fed, Urine, n=21|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Sambol_1996b, po 662.9 mg, fed, Plasma, n=24-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Sambol_1996b, po 662.9 mg, fed, Plasma, n=24|Time",
               "Y": "Sambol_1996b, po 662.9 mg, fed, Plasma, n=24|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 850 mg_Sambol 1996a",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -40066,7 +40139,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 850 mg_Sambol 1996a",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  850 mg, Sambol 1996b, n=24, tab, fed\n2026-10-13 18:34"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sambol_1996b, po 662.9 mg, fed, Urine, n=21-Metformin-Kidney-Urine-Measurement",
+              "X": "Sambol_1996b, po 662.9 mg, fed, Urine, n=21|Time",
+              "Y": "Sambol_1996b, po 662.9 mg, fed, Urine, n=21|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po  850 mg, Sambol 1996b, n=24, tab, fed|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Metformin - po (tab) 850 mg_Sambol 1996a - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (tab) 850 mg_Sambol 1996a - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  850 mg, Sambol 1996b, n=24, tab, fed\n2026-10-22 13:30"
         }
       ]
     },
@@ -40338,7 +40493,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -40359,41 +40513,18 @@
               }
             },
             {
-              "Name": "po 1000 mg, Johansson 2014, n=14, tab, fast-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po 1000 mg, Johansson 2014, n=14, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
               "Name": "Johansson_2014, po 779.9 mg, Plasma, n=14-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Johansson_2014, po 779.9 mg, Plasma, n=14|Time",
               "Y": "Johansson_2014, po 779.9 mg, Plasma, n=14|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Johansson_2014, po 779.9 mg, Urine, n=14-Metformin-Kidney-Urine-Measurement",
-              "X": "Johansson_2014, po 779.9 mg, Urine, n=14|Time",
-              "Y": "Johansson_2014, po 779.9 mg, Urine, n=14|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 1000 mg_Johansson 2014",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -40411,7 +40542,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 1000 mg_Johansson 2014",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo 1000 mg, Johansson 2014, n=14, tab, fast\n2026-10-13 18:37"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po 1000 mg, Johansson 2014, n=14, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Johansson_2014, po 779.9 mg, Urine, n=14-Metformin-Kidney-Urine-Measurement",
+              "X": "Johansson_2014, po 779.9 mg, Urine, n=14|Time",
+              "Y": "Johansson_2014, po 779.9 mg, Urine, n=14|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Metformin - po (tab) 1000 mg_Johansson 2014 - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (tab) 1000 mg_Johansson 2014 - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo 1000 mg, Johansson 2014, n=14, tab, fast\n2026-10-22 13:59"
         }
       ]
     },
@@ -40580,8 +40793,7 @@
         }
       ],
       "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
-        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine"
+        "Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)"
       ],
       "OutputMappings": [
         {
@@ -40677,7 +40889,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -40698,30 +40909,18 @@
               }
             },
             {
-              "Name": "po  500 mg, Caille 1993, n=24, tab, fed-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po  500 mg, Caille 1993, n=24, tab, fed|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Visible": false,
-                "Color": "#ECD33A",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
               "Name": "Caille_1993, po 390 mg, fed, Plasma, n=24-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Caille_1993, po 390 mg, fed, Plasma, n=24|Time",
               "Y": "Caille_1993, po 390 mg, fed, Plasma, n=24|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 500 mg_Caille 1993",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -40739,7 +40938,8 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  500 mg, Caille 1993, n=24, tab, fed\n2026-10-13 17:37"
+          "Title": "Metformin - po (tab) 500 mg_Caille 1993",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  500 mg, Caille 1993, n=24, tab, fed\n2026-10-22 13:36"
         }
       ]
     },
@@ -41011,7 +41211,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -41032,41 +41231,18 @@
               }
             },
             {
-              "Name": "po  500 mg, Sambol 1996b, n=24, tab, fast-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po  500 mg, Sambol 1996b, n=24, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Sambol_1996b, po 390 mg, Urine, n=21-Metformin-Kidney-Urine-Measurement",
-              "X": "Sambol_1996b, po 390 mg, Urine, n=21|Time",
-              "Y": "Sambol_1996b, po 390 mg, Urine, n=21|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Sambol_1996b, po 390 mg, Plasma, n=24-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Sambol_1996b, po 390 mg, Plasma, n=24|Time",
               "Y": "Sambol_1996b, po 390 mg, Plasma, n=24|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 500 mg_Sambol 1996b",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -41084,7 +41260,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 500 mg_Sambol 1996b",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  500 mg, Sambol 1996b, n=24, tab, fast\n2026-10-13 18:09"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sambol_1996b, po 390 mg, Urine, n=21-Metformin-Kidney-Urine-Measurement",
+              "X": "Sambol_1996b, po 390 mg, Urine, n=21|Time",
+              "Y": "Sambol_1996b, po 390 mg, Urine, n=21|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po  500 mg, Sambol 1996b, n=24, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Metformin - po (tab) 500 mg_Sambol 1996b - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (tab) 500 mg_Sambol 1996b - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  500 mg, Sambol 1996b, n=24, tab, fast\n2026-10-22 13:45"
         }
       ]
     },
@@ -41356,7 +41614,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -41377,41 +41634,18 @@
               }
             },
             {
-              "Name": "po  500 mg, Gusler 2001, n=14, tab, fed-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po  500 mg, Gusler 2001, n=14, tab, fed|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Gusler_2001, po fed 390 mg, Urine, n=14-Metformin-Kidney-Urine-Measurement",
-              "X": "Gusler_2001, po fed 390 mg, Urine, n=14|Time",
-              "Y": "Gusler_2001, po fed 390 mg, Urine, n=14|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Gusler_2001, po 390 mg, fed, Plasma, n=14-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Gusler_2001, po 390 mg, fed, Plasma, n=14|Time",
               "Y": "Gusler_2001, po 390 mg, fed, Plasma, n=14|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 500 mg_Gusler 2001",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -41429,7 +41663,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 500 mg_Gusler 2001",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  500 mg, Gusler 2001, n=14, tab, fed\n2026-10-13 17:58"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Gusler_2001, po fed 390 mg, Urine, n=14-Metformin-Kidney-Urine-Measurement",
+              "X": "Gusler_2001, po fed 390 mg, Urine, n=14|Time",
+              "Y": "Gusler_2001, po fed 390 mg, Urine, n=14|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po  500 mg, Gusler 2001, n=14, tab, fed|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Metformin - po (tab) 500 mg_Gusler 2001 - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (tab) 500 mg_Gusler 2001 - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  500 mg, Gusler 2001, n=14, tab, fed\n2026-10-22 13:38"
         }
       ]
     },
@@ -41603,8 +41919,7 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
-        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-        "Organism|Lumen|Feces|Metformin|Fraction excreted to feces"
+        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine"
       ],
       "OutputMappings": [
         {
@@ -41687,8 +42002,6 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0,
-              "Max": 50.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -41700,21 +42013,16 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0001,
-              "Max": 1.2,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0,
-              "Max": 1.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
@@ -41732,52 +42040,18 @@
               }
             },
             {
-              "Name": "po  500 mg, Boehringer 2018, n=13, sol, fast-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po  500 mg, Boehringer 2018, n=13, sol, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 4,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Boehringer_2018, po 390 mg, solution, Urine, n=13-Metformin-Kidney-Urine-Measurement",
-              "X": "Boehringer_2018, po 390 mg, solution, Urine, n=13|Time",
-              "Y": "Boehringer_2018, po 390 mg, solution, Urine, n=13|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 11,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "po  500 mg, Boehringer 2018, n=13, sol, fast-Metformin-Lumen-Feces-Fraction excreted to feces",
-              "X": "Time",
-              "Y": "po  500 mg, Boehringer 2018, n=13, sol, fast|Organism|Lumen|Feces|Metformin|Fraction excreted to feces",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#804040",
-                "LegendIndex": 9,
-                "LineStyle": "Dash"
-              }
-            },
-            {
               "Name": "Boehringer_2018, po 390 mg, solution, Plasma, n=13-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Boehringer_2018, po 390 mg, solution, Plasma, n=13|Time",
               "Y": "Boehringer_2018, po 390 mg, solution, Plasma, n=13|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 10,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (sol) 500 mg_Boehringer 2018",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -41795,7 +42069,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  500 mg, Boehringer 2018, n=13, sol, fast\n2026-10-13 18:42"
+          "Title": "Metformin - po (sol) 500 mg_Boehringer 2018",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  500 mg, Boehringer 2018, n=13, sol, fast\n2026-10-22 13:21"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Boehringer_2018, po 390 mg, solution, Urine, n=13-Metformin-Kidney-Urine-Measurement",
+              "X": "Boehringer_2018, po 390 mg, solution, Urine, n=13|Time",
+              "Y": "Boehringer_2018, po 390 mg, solution, Urine, n=13|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 11,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po  500 mg, Boehringer 2018, n=13, sol, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Metformin - po (sol) 500 mg_Boehringer 2018 - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (sol) 500 mg_Boehringer 2018 - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  500 mg, Boehringer 2018, n=13, sol, fast\n2026-10-22 13:22"
         }
       ]
     },
@@ -42070,7 +42426,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -42091,41 +42446,18 @@
               }
             },
             {
-              "Name": "po  10 mg, Stopfer 2018, n=24, sol, fast-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po  10 mg, Stopfer 2018, n=24, sol, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 4,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Stopfer_2018, po 7.8 mg, solution, Urine, n=24-Metformin-Kidney-Urine-Measurement",
-              "X": "Stopfer_2018, po 7.8 mg, solution, Urine, n=24|Time",
-              "Y": "Stopfer_2018, po 7.8 mg, solution, Urine, n=24|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Stopfer_2018, po 7.8 mg, solution, Plasma, n=24-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Stopfer_2018, po 7.8 mg, solution, Plasma, n=24|Time",
               "Y": "Stopfer_2018, po 7.8 mg, solution, Plasma, n=24|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (sol) 10 mg_Stopfer 2018",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -42143,7 +42475,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (sol) 10 mg_Stopfer 2018",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  10 mg, Stopfer 2018, n=24, sol, fast\n2026-10-13 17:30"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po  10 mg, Stopfer 2018, n=24, sol, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Stopfer_2018, po 7.8 mg, solution, Urine, n=24-Metformin-Kidney-Urine-Measurement",
+              "X": "Stopfer_2018, po 7.8 mg, solution, Urine, n=24|Time",
+              "Y": "Stopfer_2018, po 7.8 mg, solution, Urine, n=24|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Metformin - po (sol) 10 mg_Stopfer 2018 - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (sol) 10 mg_Stopfer 2018 - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  10 mg, Stopfer 2018, n=24, sol, fast\n2026-10-22 13:20"
         }
       ]
     },
@@ -42422,12 +42836,9 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0,
-              "Max": 1.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
@@ -42445,41 +42856,18 @@
               }
             },
             {
-              "Name": "po  500 mg, Stopfer 2016, n=20, tab, fast-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po  500 mg, Stopfer 2016, n=20, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 4,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Stopfer_2016, po 390 mg, Urine, n=20-Metformin-Kidney-Urine-Measurement",
-              "X": "Stopfer_2016, po 390 mg, Urine, n=20|Time",
-              "Y": "Stopfer_2016, po 390 mg, Urine, n=20|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Stopfer_2016, po 390 mg, Plasma, n=20-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Stopfer_2016, po 390 mg, Plasma, n=20|Time",
               "Y": "Stopfer_2016, po 390 mg, Plasma, n=20|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 500 mg_Stopfer 2016",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -42497,7 +42885,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 500 mg_Stopfer 2016",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  500 mg, Stopfer 2016, n=20, tab, fast\n2026-10-13 18:11"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Stopfer_2016, po 390 mg, Urine, n=20-Metformin-Kidney-Urine-Measurement",
+              "X": "Stopfer_2016, po 390 mg, Urine, n=20|Time",
+              "Y": "Stopfer_2016, po 390 mg, Urine, n=20|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po  500 mg, Stopfer 2016, n=20, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Metformin - po (tab) 500 mg_Stopfer 2016 - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (tab) 500 mg_Stopfer 2016 - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  500 mg, Stopfer 2016, n=20, tab, fast\n2026-10-22 13:25"
         }
       ]
     },
@@ -42791,12 +43261,9 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0,
-              "Max": 1.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
@@ -42814,41 +43281,18 @@
               }
             },
             {
-              "Name": "iv 1000 mg, Sirtori 1978, n=5-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "iv 1000 mg, Sirtori 1978, n=5|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF8000",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Sirtori_1978, iv 723 mg, Urine, n=5-Metformin-Kidney-Urine-Measurement",
-              "X": "Sirtori_1978, iv 723 mg, Urine, n=5|Time",
-              "Y": "Sirtori_1978, iv 723 mg, Urine, n=5|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Sirtori_1978, iv 723 mg, Plasma, n=5-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Sirtori_1978, iv 723 mg, Plasma, n=5|Time",
               "Y": "Sirtori_1978, iv 723 mg, Plasma, n=5|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - iv, 1000 mg_Sirtori 1978",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -42866,7 +43310,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - iv, 1000 mg_Sirtori 1978",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\niv 1000 mg, Sirtori 1978, n=5\n2026-10-13 17:24"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sirtori_1978, iv 723 mg, Urine, n=5-Metformin-Kidney-Urine-Measurement",
+              "X": "Sirtori_1978, iv 723 mg, Urine, n=5|Time",
+              "Y": "Sirtori_1978, iv 723 mg, Urine, n=5|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "iv 1000 mg, Sirtori 1978, n=5|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Metformin - iv, 1000 mg_Sirtori 1978 - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - iv, 1000 mg_Sirtori 1978 - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\niv 1000 mg, Sirtori 1978, n=5\n2026-10-22 13:11"
         }
       ]
     },
@@ -43078,21 +43604,7 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
-        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-        "Organism|Bone|Metformin|Tissue",
-        "Organism|Brain|Metformin|Tissue",
-        "Organism|Gonads|Metformin|Tissue",
-        "Organism|Heart|Metformin|Tissue",
-        "Organism|Kidney|Metformin|Tissue",
-        "Organism|LargeIntestine|Metformin|Total Tissue (Large Intestine)",
-        "Organism|Liver|Metformin|Tissue (Liver)",
-        "Organism|Lung|Metformin|Tissue",
-        "Organism|Muscle|Metformin|Tissue",
-        "Organism|Pancreas|Metformin|Tissue",
-        "Organism|Skin|Metformin|Tissue",
-        "Organism|SmallIntestine|Metformin|Total Tissue (Small Intestine)",
-        "Organism|Spleen|Metformin|Tissue",
-        "Organism|Stomach|Metformin|Tissue"
+        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine"
       ],
       "OutputMappings": [
         {
@@ -43217,7 +43729,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -43238,70 +43749,11 @@
               }
             },
             {
-              "Name": "iv  500 mg, Pentikainen 1979, n=3-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF8000",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Pentikainen_1979, iv, Urine_SR-Metformin-Kidney-Urine-Measurement",
-              "X": "Pentikainen_1979, iv, Urine_SR|Time",
-              "Y": "Pentikainen_1979, iv, Urine_SR|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 32,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Pentikainen_1979, iv, Urine_PP-Metformin-Kidney-Urine-Measurement",
-              "X": "Pentikainen_1979, iv, Urine_PP|Time",
-              "Y": "Pentikainen_1979, iv, Urine_PP|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 31,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Pentikainen_1979, iv, Urine_KL-Metformin-Kidney-Urine-Measurement",
-              "X": "Pentikainen_1979, iv, Urine_KL|Time",
-              "Y": "Pentikainen_1979, iv, Urine_KL|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF8080",
-                "LegendIndex": 30,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Pentikainen_1979, iv 390 mg, Urine, n=3-Metformin-Kidney-Urine-Measurement",
-              "X": "Pentikainen_1979, iv 390 mg, Urine, n=3|Time",
-              "Y": "Pentikainen_1979, iv 390 mg, Urine, n=3|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#808000",
-                "LegendIndex": 29,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Pentikainen_1979, iv 390 mg, Plasma, n=3-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Pentikainen_1979, iv 390 mg, Plasma, n=3|Time",
               "Y": "Pentikainen_1979, iv 390 mg, Plasma, n=3|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#80FF80",
+                "Color": "#0000FF",
                 "LegendIndex": 28,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -43312,7 +43764,7 @@
               "X": "Pentikainen_1979, 390 mg iv, SR|Time",
               "Y": "Pentikainen_1979, 390 mg iv, SR|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#804040",
+                "Color": "#DBE5F1",
                 "LegendIndex": 27,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -43323,7 +43775,7 @@
               "X": "Pentikainen_1979, 390 mg iv, PP|Time",
               "Y": "Pentikainen_1979, 390 mg iv, PP|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#800080",
+                "Color": "#DBE5F1",
                 "LegendIndex": 26,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -43334,154 +43786,14 @@
               "X": "Pentikainen_1979, 390 mg iv, KL|Time",
               "Y": "Pentikainen_1979, 390 mg iv, KL|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#008080",
+                "Color": "#DBE5F1",
                 "LegendIndex": 25,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
-            },
-            {
-              "Name": "Metformin-Muscle-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Muscle|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#0000C0",
-                "LegendIndex": 21
-              }
-            },
-            {
-              "Name": "Metformin-Lung-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Lung|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#8080FF",
-                "LegendIndex": 20
-              }
-            },
-            {
-              "Name": "Metformin-Liver-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Liver|Metformin|Tissue (Liver)",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#C0C000",
-                "LegendIndex": 19
-              }
-            },
-            {
-              "Name": "Metformin-Large Intestine-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|LargeIntestine|Metformin|Total Tissue (Large Intestine)",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#808080",
-                "LegendIndex": 18
-              }
-            },
-            {
-              "Name": "Metformin-Small Intestine-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|SmallIntestine|Metformin|Total Tissue (Small Intestine)",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#00FF00",
-                "LegendIndex": 17
-              }
-            },
-            {
-              "Name": "Metformin-Stomach-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Stomach|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#C04000",
-                "LegendIndex": 16
-              }
-            },
-            {
-              "Name": "Metformin-Kidney-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Kidney|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#C000C0",
-                "LegendIndex": 15
-              }
-            },
-            {
-              "Name": "Metformin-Heart-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Heart|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#00C0C0",
-                "LegendIndex": 14
-              }
-            },
-            {
-              "Name": "Metformin-Gonads-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Gonads|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#FF00FF",
-                "LegendIndex": 13
-              }
-            },
-            {
-              "Name": "Metformin-Brain-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Brain|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#008000",
-                "LegendIndex": 12
-              }
-            },
-            {
-              "Name": "Metformin-Bone-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Bone|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#FF0000",
-                "LegendIndex": 11
-              }
-            },
-            {
-              "Name": "Metformin-Pancreas-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Pancreas|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#00C000",
-                "LegendIndex": 22
-              }
-            },
-            {
-              "Name": "Metformin-Skin-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Skin|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#C00000",
-                "LegendIndex": 23
-              }
-            },
-            {
-              "Name": "Metformin-Spleen-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Spleen|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#FFFF00",
-                "LegendIndex": 24
-              }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - iv 500 mg_Pentikainen 1979",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -43499,7 +43811,125 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Metformin-model-[11-20260804-1]-clean\niv  500 mg, Pentikäinen 1979, n=3\n2026-10-13 17:21"
+          "Title": "Metformin - iv 500 mg_Pentikainen 1979",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\niv  500 mg, Pentikainen 1979, n=3\n2026-10-22 13:14"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Pentikainen_1979, iv, Urine_SR-Metformin-Kidney-Urine-Measurement",
+              "X": "Pentikainen_1979, iv, Urine_SR|Time",
+              "Y": "Pentikainen_1979, iv, Urine_SR|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FAC08F",
+                "LegendIndex": 29,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "iv  500 mg, Pentikainen 1979, n=3|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Pentikainen_1979, iv, Urine_PP-Metformin-Kidney-Urine-Measurement",
+              "X": "Pentikainen_1979, iv, Urine_PP|Time",
+              "Y": "Pentikainen_1979, iv, Urine_PP|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FAC08F",
+                "LegendIndex": 30,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Pentikainen_1979, iv, Urine_KL-Metformin-Kidney-Urine-Measurement",
+              "X": "Pentikainen_1979, iv, Urine_KL|Time",
+              "Y": "Pentikainen_1979, iv, Urine_KL|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FAC08F",
+                "LegendIndex": 31,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Pentikainen_1979, iv 390 mg, Urine, n=3-Metformin-Kidney-Urine-Measurement",
+              "X": "Pentikainen_1979, iv 390 mg, Urine, n=3|Time",
+              "Y": "Pentikainen_1979, iv 390 mg, Urine, n=3|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 32,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Metformin - iv 500 mg_Pentikainen 1979 - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - iv 500 mg_Pentikainen 1979 - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\niv  500 mg, Pentikainen 1979, n=3\n2026-10-22 13:15"
         }
       ]
     },
@@ -43774,7 +44204,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -43795,41 +44224,18 @@
               }
             },
             {
-              "Name": "po 1700 mg, Sambol 1996a, n=9, tab, fast-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po 1700 mg, Sambol 1996a, n=9, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
               "Name": "Sambol_1996a, po 1325.8 mg, Plasma, n=9-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Sambol_1996a, po 1325.8 mg, Plasma, n=9|Time",
               "Y": "Sambol_1996a, po 1325.8 mg, Plasma, n=9|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Sambol_1996a, po 1325.8 mg, Urine, n=9-Metformin-Kidney-Urine-Measurement",
-              "X": "Sambol_1996a, po 1325.8 mg, Urine, n=9|Time",
-              "Y": "Sambol_1996a, po 1325.8 mg, Urine, n=9|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 1700 mg_Sambol 1996a",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -43847,7 +44253,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 1700 mg_Sambol 1996a",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo 1700 mg, Sambol 1996a, n=9, tab, fast\n2026-10-13 18:36"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sambol_1996a, po 1325.8 mg, Urine, n=9-Metformin-Kidney-Urine-Measurement",
+              "X": "Sambol_1996a, po 1325.8 mg, Urine, n=9|Time",
+              "Y": "Sambol_1996a, po 1325.8 mg, Urine, n=9|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po 1700 mg, Sambol 1996a, n=9, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Metformin - po (tab) 1700 mg_Sambol 1996a - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (tab) 1700 mg_Sambol 1996a - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo 1700 mg, Sambol 1996a, n=9, tab, fast\n2026-10-22 13:31"
         }
       ]
     },
@@ -44020,7 +44508,8 @@
         }
       ],
       "OutputSelections": [
-        "Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)"
+        "Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
+        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine"
       ],
       "OutputMappings": [
         {
@@ -44116,7 +44605,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -44138,30 +44626,18 @@
               }
             },
             {
-              "Name": "Sambol_1996a, po 1988.745 mg, Urine, n=9-Metformin-Kidney-Urine-Measurement",
-              "X": "Sambol_1996a, po 1988.745 mg, Urine, n=9|Time",
-              "Y": "Sambol_1996a, po 1988.745 mg, Urine, n=9|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Sambol_1996a, po 1988.745 mg, Plasma, n=9-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Sambol_1996a, po 1988.745 mg, Plasma, n=9|Time",
               "Y": "Sambol_1996a, po 1988.745 mg, Plasma, n=9|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 2550 mg_Sambol 1996a",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -44179,7 +44655,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Metformin-model-[11-20260804-1]-clean\npo 2550 mg, Sambol 1996a, n=9, tab, fast\n2026-10-13 18:25"
+          "Title": "Metformin - po (tab) 2550 mg_Sambol 1996a",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo 2550 mg, Sambol 1996a, n=9, tab, fast\n2026-10-22 13:32"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sambol_1996a, po 1988.745 mg, Urine, n=9-Metformin-Kidney-Urine-Measurement",
+              "X": "Sambol_1996a, po 1988.745 mg, Urine, n=9|Time",
+              "Y": "Sambol_1996a, po 1988.745 mg, Urine, n=9|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po 2550 mg, Sambol 1996a, n=9, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Metformin - po (tab) 2550 mg_Sambol 1996a - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (tab) 2550 mg_Sambol 1996a - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo 2550 mg, Sambol 1996a, n=9, tab, fast\n2026-10-22 13:33"
         }
       ]
     },
@@ -44355,13 +44913,9 @@
       ],
       "OutputSelections": [
         "Organism|ArterialBlood|Plasma|Metformin|Concentration in container",
-        "Organism|ArterialBlood|Metformin|Whole Blood",
         "Organism|Kidney|Metformin|Tissue",
         "Organism|Liver|Metformin|Tissue (Liver)",
-        "Organism|SmallIntestine|Metformin|Total Tissue (Small Intestine)",
-        "Organism|Muscle|Metformin|Tissue",
-        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-        "Organism|Lumen|Feces|Metformin|Fraction excreted to feces"
+        "Organism|Muscle|Metformin|Tissue"
       ],
       "OutputMappings": [
         {
@@ -44476,12 +45030,9 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "Min": 4.793605E-05,
-              "Max": 0.0878502,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
@@ -44494,7 +45045,7 @@
               "X": "Time",
               "Y": "po   0.0008 mg, Gormsen 2016, n=3, sol, fast|Organism|ArterialBlood|Plasma|Metformin|Concentration in container",
               "CurveOptions": {
-                "Color": "#0000FF",
+                "Color": "#FF0000",
                 "LegendIndex": 2
               }
             },
@@ -44503,7 +45054,7 @@
               "X": "Gormsen_2016, po 0.8556 µg, Kidney, n=5|Time",
               "Y": "Gormsen_2016, po 0.8556 µg, Kidney, n=5|ObservedData|Kidney|Tissue|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#00C0C0",
+                "Color": "#ECD33A",
                 "LegendIndex": 21,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -44528,21 +45079,11 @@
               }
             },
             {
-              "Name": "po   0.0008 mg, Gormsen 2016, n=3, sol, fast-Metformin-Small Intestine-Tissue-Concentration",
-              "X": "Time",
-              "Y": "po   0.0008 mg, Gormsen 2016, n=3, sol, fast|Organism|SmallIntestine|Metformin|Total Tissue (Small Intestine)",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#804040",
-                "LegendIndex": 14
-              }
-            },
-            {
               "Name": "po   0.0008 mg, Gormsen 2016, n=3, sol, fast-Metformin-Muscle-Tissue-Concentration",
               "X": "Time",
               "Y": "po   0.0008 mg, Gormsen 2016, n=3, sol, fast|Organism|Muscle|Metformin|Tissue",
               "CurveOptions": {
-                "Color": "#FF00FF",
+                "Color": "#974806",
                 "LegendIndex": 16
               }
             },
@@ -44551,34 +45092,10 @@
               "X": "Gormsen_2016, po 0.8556 µg, Muscle, n=5|Time",
               "Y": "Gormsen_2016, po 0.8556 µg, Muscle, n=5|ObservedData|Muscle|Tissue|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#C04000",
+                "Color": "#974806",
                 "LegendIndex": 23,
                 "LineStyle": "None",
                 "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "po   0.0008 mg, Gormsen 2016, n=3, sol, fast-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po   0.0008 mg, Gormsen 2016, n=3, sol, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Visible": false,
-                "Color": "#FF8000",
-                "LegendIndex": 18,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "po   0.0008 mg, Gormsen 2016, n=3, sol, fast-Metformin-Lumen-Feces-Fraction excreted to feces",
-              "X": "Time",
-              "Y": "po   0.0008 mg, Gormsen 2016, n=3, sol, fast|Organism|Lumen|Feces|Metformin|Fraction excreted to feces",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Visible": false,
-                "Color": "#804040",
-                "LegendIndex": 19,
-                "LineStyle": "Dash"
               }
             },
             {
@@ -44586,7 +45103,7 @@
               "X": "Gormsen_2016, po 0.8556 µg, Liver, n=5|Time",
               "Y": "Gormsen_2016, po 0.8556 µg, Liver, n=5|ObservedData|Liver|Tissue|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#C000C0",
+                "Color": "#008000",
                 "LegendIndex": 22,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -44604,7 +45121,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (sol) 0.0008 mg, Gormsen 2016",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -44622,7 +45139,8 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Metformin-model-[11-20260804-1]-clean\npo   0.0008 mg, Gormsen 2016, n=3, sol, fast\n2026-10-13 17:28"
+          "Title": "Metformin - po (sol) 0.0008 mg, Gormsen 2016",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo   0.0008 mg, Gormsen 2016, n=3, sol, fast\n2026-10-22 13:18"
         }
       ]
     },
@@ -44901,12 +45419,9 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0,
-              "Max": 1.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
               "Scaling": "Linear",
@@ -44924,41 +45439,18 @@
               }
             },
             {
-              "Name": "po  850 mg, Sambol 1996b, n=24, sol, fast-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po  850 mg, Sambol 1996b, n=24, sol, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Sambol_1996b, po 662.9 mg, solution, Urine, n=24-Metformin-Kidney-Urine-Measurement",
-              "X": "Sambol_1996b, po 662.9 mg, solution, Urine, n=24|Time",
-              "Y": "Sambol_1996b, po 662.9 mg, solution, Urine, n=24|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Sambol_1996b, po 662.9 mg, solution, Plasma, n=24-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Sambol_1996b, po 662.9 mg, solution, Plasma, n=24|Time",
               "Y": "Sambol_1996b, po 662.9 mg, solution, Plasma, n=24|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (sol) 850 mg_Sambol 1996b",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -44976,7 +45468,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (sol) 850 mg_Sambol 1996b",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  850 mg, Sambol 1996b, n=24, sol, fast\n2026-10-13 18:31"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Sambol_1996b, po 662.9 mg, solution, Urine, n=24-Metformin-Kidney-Urine-Measurement",
+              "X": "Sambol_1996b, po 662.9 mg, solution, Urine, n=24|Time",
+              "Y": "Sambol_1996b, po 662.9 mg, solution, Urine, n=24|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po  850 mg, Sambol 1996b, n=24, sol, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Metformin - po (sol) 850 mg_Sambol 1996b - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (sol) 850 mg_Sambol 1996b - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  850 mg, Sambol 1996b, n=24, sol, fast\n2026-10-22 13:26"
         }
       ]
     },
@@ -45271,7 +45845,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -45292,41 +45865,18 @@
               }
             },
             {
-              "Name": "Somogyi_1987, po 195 mg, fed, Urine, n=7-Metformin-Kidney-Urine-Measurement",
-              "X": "Somogyi_1987, po 195 mg, fed, Urine, n=7|Time",
-              "Y": "Somogyi_1987, po 195 mg, fed, Urine, n=7|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "po  250 mg, Somogyi 1987, n=7, tab, fed-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po  250 mg, Somogyi 1987, n=7, tab, fed|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 4,
-                "LineStyle": "Dash"
-              }
-            },
-            {
               "Name": "Somogyi_1987, po 195 mg, fed, Plasma, n=7-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Somogyi_1987, po 195 mg, fed, Plasma, n=7|Time",
               "Y": "Somogyi_1987, po 195 mg, fed, Plasma, n=7|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 250 mg_Somogyi 1987",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -45344,7 +45894,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 250 mg_Somogyi 1987",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  250 mg, Somogyi 1987, n=7, tab, fed\n2026-10-13 17:34"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Somogyi_1987, po 195 mg, fed, Urine, n=7-Metformin-Kidney-Urine-Measurement",
+              "X": "Somogyi_1987, po 195 mg, fed, Urine, n=7|Time",
+              "Y": "Somogyi_1987, po 195 mg, fed, Urine, n=7|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po  250 mg, Somogyi 1987, n=7, tab, fed|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Metformin - po (tab) 250 mg_Somogyi 1987 - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (tab) 250 mg_Somogyi 1987 - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  250 mg, Somogyi 1987, n=7, tab, fed\n2026-10-22 13:34"
         }
       ]
     },
@@ -45621,7 +46253,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -45642,41 +46273,18 @@
               }
             },
             {
-              "Name": "Wang_2008, po 390 mg, Urine, n=6-Metformin-Kidney-Urine-Measurement",
-              "X": "Wang_2008, po 390 mg, Urine, n=6|Time",
-              "Y": "Wang_2008, po 390 mg, Urine, n=6|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "po  500 mg, Wang 2008, n=6, tab, fast-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po  500 mg, Wang 2008, n=6, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 4,
-                "LineStyle": "Dash"
-              }
-            },
-            {
               "Name": "Wang_2008, po 390 mg, Plasma, n=6-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Wang_2008, po 390 mg, Plasma, n=6|Time",
               "Y": "Wang_2008, po 390 mg, Plasma, n=6|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tablet) 500 mg_Wang 2008",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -45694,7 +46302,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tablet) 500 mg_Wang 2008",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  500 mg, Wang 2008, n=6, tab, fast\n2026-10-13 18:14"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po  500 mg, Wang 2008, n=6, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Wang_2008, po 390 mg, Urine, n=6-Metformin-Kidney-Urine-Measurement",
+              "X": "Wang_2008, po 390 mg, Urine, n=6|Time",
+              "Y": "Wang_2008, po 390 mg, Urine, n=6|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Metformin - po (tablet) 500 mg_Wang 2008 - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (tablet) 500 mg_Wang 2008 - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  500 mg, Wang 2008, n=6, tab, fast\n2026-10-22 13:48"
         }
       ]
     },
@@ -45981,14 +46671,14 @@
               "X": "Cho_2011, po 779.9 mg + 584.9 mg, Plasma, n=16|Time",
               "Y": "Cho_2011, po 779.9 mg + 584.9 mg, Plasma, n=16|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 750 mg_Cho 2011",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -46006,6 +46696,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 750 mg_Cho 2011",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  750 mg, Cho 2011, n=16, tab, fast\n2026-10-13 18:15"
         }
       ]
@@ -46285,14 +46976,14 @@
               "X": "Najib_2002, po 390 mg, Plasma, n=24|Time",
               "Y": "Najib_2002, po 390 mg, Plasma, n=24|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 500 mg_Najib 2002",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -46310,6 +47001,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 500 mg_Najib 2002",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  500 mg, Najib 2002, n=24, tab, fast\n2026-10-13 18:04"
         }
       ]
@@ -46645,7 +47337,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -46666,94 +47357,11 @@
               }
             },
             {
-              "Name": "po  500 mg, Pentikainen 1979, n=5, tab, fast-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po  500 mg, Pentikainen 1979, n=5, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF8000",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Pentikainen_1979, po, Urine_TK-Metformin-Kidney-Urine-Measurement",
-              "X": "Pentikainen_1979, po, Urine_TK|Time",
-              "Y": "Pentikainen_1979, po, Urine_TK|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#00C000",
-                "LegendIndex": 14,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Pentikainen_1979, po, Urine_SR-Metformin-Kidney-Urine-Measurement",
-              "X": "Pentikainen_1979, po, Urine_SR|Time",
-              "Y": "Pentikainen_1979, po, Urine_SR|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#0000C0",
-                "LegendIndex": 13,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Pentikainen_1979, po, Urine_RL-Metformin-Kidney-Urine-Measurement",
-              "X": "Pentikainen_1979, po, Urine_RL|Time",
-              "Y": "Pentikainen_1979, po, Urine_RL|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#8080FF",
-                "LegendIndex": 12,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Pentikainen_1979, po, Urine_PP-Metformin-Kidney-Urine-Measurement",
-              "X": "Pentikainen_1979, po, Urine_PP|Time",
-              "Y": "Pentikainen_1979, po, Urine_PP|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#C0C000",
-                "LegendIndex": 11,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Pentikainen_1979, po, Urine_KL-Metformin-Kidney-Urine-Measurement",
-              "X": "Pentikainen_1979, po, Urine_KL|Time",
-              "Y": "Pentikainen_1979, po, Urine_KL|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#808080",
-                "LegendIndex": 10,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Pentikainen_1979, po 390 mg, Urine, n=5-Metformin-Kidney-Urine-Measurement",
-              "X": "Pentikainen_1979, po 390 mg, Urine, n=5|Time",
-              "Y": "Pentikainen_1979, po 390 mg, Urine, n=5|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#00FF00",
-                "LegendIndex": 9,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Pentikainen_1979, po 390 mg, Plasma, n=5-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Pentikainen_1979, po 390 mg, Plasma, n=5|Time",
               "Y": "Pentikainen_1979, po 390 mg, Plasma, n=5|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#C04000",
+                "Color": "#0000FF",
                 "LegendIndex": 8,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -46764,7 +47372,7 @@
               "X": "Pentikainen_1979, 390 mg po, TK|Time",
               "Y": "Pentikainen_1979, 390 mg po, TK|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#C000C0",
+                "Color": "#DBE5F1",
                 "LegendIndex": 7,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -46775,7 +47383,7 @@
               "X": "Pentikainen_1979, 390 mg po, SR|Time",
               "Y": "Pentikainen_1979, 390 mg po, SR|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#00C0C0",
+                "Color": "#DBE5F1",
                 "LegendIndex": 6,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -46786,7 +47394,7 @@
               "X": "Pentikainen_1979, 390 mg po, RL|Time",
               "Y": "Pentikainen_1979, 390 mg po, RL|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF00FF",
+                "Color": "#DBE5F1",
                 "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -46797,7 +47405,7 @@
               "X": "Pentikainen_1979, 390 mg po, PP|Time",
               "Y": "Pentikainen_1979, 390 mg po, PP|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#008000",
+                "Color": "#DBE5F1",
                 "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -46808,14 +47416,14 @@
               "X": "Pentikainen_1979, 390 mg po, KL|Time",
               "Y": "Pentikainen_1979, 390 mg po, KL|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#DBE5F1",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 500 mg_Pentikainen 1979",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -46833,7 +47441,149 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 500 mg_Pentikainen 1979",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  500 mg, Pentikäinen 1979, n=5, tab, fast\n2026-10-13 18:07"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po  500 mg, Pentikainen 1979, n=5, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Pentikainen_1979, po, Urine_TK-Metformin-Kidney-Urine-Measurement",
+              "X": "Pentikainen_1979, po, Urine_TK|Time",
+              "Y": "Pentikainen_1979, po, Urine_TK|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FAC08F",
+                "LegendIndex": 9,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Pentikainen_1979, po, Urine_SR-Metformin-Kidney-Urine-Measurement",
+              "X": "Pentikainen_1979, po, Urine_SR|Time",
+              "Y": "Pentikainen_1979, po, Urine_SR|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FAC08F",
+                "LegendIndex": 10,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Pentikainen_1979, po, Urine_RL-Metformin-Kidney-Urine-Measurement",
+              "X": "Pentikainen_1979, po, Urine_RL|Time",
+              "Y": "Pentikainen_1979, po, Urine_RL|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FAC08F",
+                "LegendIndex": 11,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Pentikainen_1979, po, Urine_PP-Metformin-Kidney-Urine-Measurement",
+              "X": "Pentikainen_1979, po, Urine_PP|Time",
+              "Y": "Pentikainen_1979, po, Urine_PP|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FAC08F",
+                "LegendIndex": 12,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Pentikainen_1979, po, Urine_KL-Metformin-Kidney-Urine-Measurement",
+              "X": "Pentikainen_1979, po, Urine_KL|Time",
+              "Y": "Pentikainen_1979, po, Urine_KL|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FAC08F",
+                "LegendIndex": 13,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Pentikainen_1979, po 390 mg, Urine, n=5-Metformin-Kidney-Urine-Measurement",
+              "X": "Pentikainen_1979, po 390 mg, Urine, n=5|Time",
+              "Y": "Pentikainen_1979, po 390 mg, Urine, n=5|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 14,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Metformin - po (tab) 500 mg_Pentikainen 1979 - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (tab) 500 mg_Pentikainen 1979 - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  500 mg, Pentikainen 1979, n=5, tab, fast\n2026-10-22 13:44"
         }
       ]
     },
@@ -47004,8 +47754,7 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
-        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-        "Organism|Lumen|Feces|Metformin|Fraction excreted to feces"
+        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine"
       ],
       "OutputMappings": [
         {
@@ -47106,7 +47855,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -47127,41 +47875,18 @@
               }
             },
             {
-              "Name": "po  500 mg, Tucker 1981, n=4, tab, fed-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po  500 mg, Tucker 1981, n=4, tab, fed|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Tucker_1981, po 390 mg, fed, Urine, n=4-Metformin-Kidney-Urine-Measurement",
-              "X": "Tucker_1981, po 390 mg, fed, Urine, n=4|Time",
-              "Y": "Tucker_1981, po 390 mg, fed, Urine, n=4|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Tucker_1981, po 390 mg, fed, Plasma, n=4-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Tucker_1981, po 390 mg, fed, Plasma, n=4|Time",
               "Y": "Tucker_1981, po 390 mg, fed, Plasma, n=4|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 500 mg_Tucker 1981",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -47179,7 +47904,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  500 mg, Tucker 1981, n=4, tab, fed\n2026-10-13 18:12"
+          "Title": "Metformin - po (tab) 500 mg_Tucker 1981",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  500 mg, Tucker 1981, n=4, tab, fed\n2026-10-22 13:47"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tucker_1981, po 390 mg, fed, Urine, n=4-Metformin-Kidney-Urine-Measurement",
+              "X": "Tucker_1981, po 390 mg, fed, Urine, n=4|Time",
+              "Y": "Tucker_1981, po 390 mg, fed, Urine, n=4|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po  500 mg, Tucker 1981, n=4, tab, fed|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Metformin - po (tab) 500 mg_Tucker 1981 - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (tab) 500 mg_Tucker 1981 - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  500 mg, Tucker 1981, n=4, tab, fed\n2026-10-22 13:47"
         }
       ]
     },
@@ -47350,8 +48157,7 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
-        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-        "Organism|Lumen|Feces|Metformin|Fraction excreted to feces"
+        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine"
       ],
       "OutputMappings": [
         {
@@ -47452,7 +48258,6 @@
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -47473,41 +48278,18 @@
               }
             },
             {
-              "Name": "po 1500 mg, Tucker 1981, n=4, tab, fed-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po 1500 mg, Tucker 1981, n=4, tab, fed|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Tucker_1981, po 1170 mg, fed, Urine, n=4-Metformin-Kidney-Urine-Measurement",
-              "X": "Tucker_1981, po 1170 mg, fed, Urine, n=4|Time",
-              "Y": "Tucker_1981, po 1170 mg, fed, Urine, n=4|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 4,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
               "Name": "Tucker_1981, po 1170 mg, fed, Plasma, n=4-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Tucker_1981, po 1170 mg, fed, Plasma, n=4|Time",
               "Y": "Tucker_1981, po 1170 mg, fed, Plasma, n=4|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 1500 mg_Tucker 1981",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -47525,7 +48307,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Metformin-model-[11-20260804-1]-clean\npo 1500 mg, Tucker 1981, n=4, tab, fed\n2026-10-13 18:32"
+          "Title": "Metformin - po (tab) 1500 mg_Tucker 1981",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo 1500 mg, Tucker 1981, n=4, tab, fed\n2026-10-22 14:00"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po 1500 mg, Tucker 1981, n=4, tab, fed|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Tucker_1981, po 1170 mg, fed, Urine, n=4-Metformin-Kidney-Urine-Measurement",
+              "X": "Tucker_1981, po 1170 mg, fed, Urine, n=4|Time",
+              "Y": "Tucker_1981, po 1170 mg, fed, Urine, n=4|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Metformin - po (tab) 1500 mg_Tucker 1981 - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (tab) 1500 mg_Tucker 1981 - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo 1500 mg, Tucker 1981, n=4, tab, fed\n2026-10-22 14:00"
         }
       ]
     },
@@ -47838,7 +48702,7 @@
               "X": "DiCicco_2000, po 390 mg bid, fed, Plasma, n=14|Time",
               "Y": "DiCicco_2000, po 390 mg bid, fed, Plasma, n=14|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -47863,6 +48727,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 500 mg_DiCicco 2000",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  500 mg, DiCicco 2000, n=16, tab, fed\n2026-10-13 17:55"
         }
       ]
@@ -48147,14 +49012,14 @@
               "X": "Jang_2016, po 584.9 mg + 390 mg, Plasma, n=20|Time",
               "Y": "Jang_2016, po 584.9 mg + 390 mg, Plasma, n=20|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 500 mg_Jang 2016",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -48172,6 +49037,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 500 mg_Jang 2016",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  500 mg, Jang 2016, n=20, tab, fast\n2026-10-13 18:00"
         }
       ]
@@ -48456,14 +49322,14 @@
               "X": "Kim_2014, po 584.9 mg + 390 mg, Plasma, n=24|Time",
               "Y": "Kim_2014, po 584.9 mg + 390 mg, Plasma, n=24|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 500 mg_Kim 2014",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -48481,6 +49347,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 500 mg_Kim 2014",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  500 mg, Kim 2014, n=23, tab, fast\n2026-10-13 18:01"
         }
       ]
@@ -48765,14 +49632,14 @@
               "X": "Oh_2016, po 584.9 mg + 390 mg, Plasma, n=20|Time",
               "Y": "Oh_2016, po 584.9 mg + 390 mg, Plasma, n=20|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 500 mg_Oh 2016",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -48790,6 +49657,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 500 mg_Oh 2016",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  500 mg, Oh 2016, n=20, tab, fast\n2026-10-13 18:05"
         }
       ]
@@ -49094,14 +49962,14 @@
               "X": "Manitpisitkul_2014, po 390 mg, bid, Plasma, n=18|Time",
               "Y": "Manitpisitkul_2014, po 390 mg, bid, Plasma, n=18|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 500 mg_Manitpisitkul 2014",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -49119,6 +49987,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 500 mg_Manitpisitkul 2014",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  500 mg, Manitpisitkul 2014, n=18, tab, fast\n2026-10-13 18:03"
         }
       ]
@@ -49403,14 +50272,14 @@
               "X": "Ding_2014, po 779.9 mg + 584.9 mg, Plasma, n=20|Time",
               "Y": "Ding_2014, po 779.9 mg + 584.9 mg, Plasma, n=20|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 750 mg tid_Ding 2014",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -49428,6 +50297,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 750 mg tid_Ding 2014",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  750 mg, Ding 2014, n=20, tab, fast\n2026-10-13 18:18"
         }
       ]
@@ -49712,14 +50582,14 @@
               "X": "Cho_2014, po 779.9 mg + 584.9 mg, Plasma, n=12|Time",
               "Y": "Cho_2014, po 779.9 mg + 584.9 mg, Plasma, n=12|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 750 mg_Cho 2014",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -49737,6 +50607,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 750 mg_Cho 2014",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  750 mg, Cho 2014, n=12, tab, fast\n2026-10-13 18:17"
         }
       ]
@@ -50016,14 +50887,14 @@
               "X": "Chen_2009, po 662.9 mg, Plasma, n=14|Time",
               "Y": "Chen_2009, po 662.9 mg, Plasma, n=14|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 850 mg_Chen 2009",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -50041,6 +50912,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 850 mg_Chen 2009",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  850 mg, Chen 2009, n=14, tab, fast\n2026-10-13 18:22"
         }
       ]
@@ -50320,14 +51192,14 @@
               "X": "Morrissey_2016, po 662.9 mg, Plasma, n=12|Time",
               "Y": "Morrissey_2016, po 662.9 mg, Plasma, n=12|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 850 mg_Morrissey 2016",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -50345,6 +51217,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 850 mg_Morrissey 2016",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  850 mg, Morissey 2016, n=12, tab, fast\n2026-10-13 18:39"
         }
       ]
@@ -50616,8 +51489,7 @@
               "NumberMode": "Normal"
             },
             {
-              "Unit": "µmol",
-              "Dimension": "Amount",
+              "Unit": "",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -50638,41 +51510,18 @@
               }
             },
             {
-              "Name": "po  850 mg, Hibma 2016, n=12, tab, fast-Metformin-Kidney-Urine-Amount in container",
-              "X": "Time",
-              "Y": "po  850 mg, Hibma 2016, n=12, tab, fast|Organism|Kidney|Urine|Metformin",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF8000",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
               "Name": "Hibma_2016, po 779.9 mg + 662.9 mg, Plasma, n=12-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Hibma_2016, po 779.9 mg + 662.9 mg, Plasma, n=12|Time",
               "Y": "Hibma_2016, po 779.9 mg + 662.9 mg, Plasma, n=12|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 3,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Hibma_2016, po 779.9 mg + 662.9 mg, Urine, n=12-Metformin-Measurement",
-              "X": "Hibma_2016, po 779.9 mg + 662.9 mg, Urine, n=12|Time",
-              "Y": "Hibma_2016, po 779.9 mg + 662.9 mg, Urine, n=12|ObservedData|||Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#008000",
-                "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 850 mg_Hibma 2016",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -50690,7 +51539,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 850 mg_Hibma 2016",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  850 mg, Hibma 2016, n=12, tab, fast\n2026-10-13 18:23"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol",
+              "Dimension": "Amount",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Hibma_2016, po 779.9 mg + 662.9 mg, Urine, n=12-Metformin-Measurement",
+              "X": "Hibma_2016, po 779.9 mg + 662.9 mg, Urine, n=12|Time",
+              "Y": "Hibma_2016, po 779.9 mg + 662.9 mg, Urine, n=12|ObservedData|||Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Metformin-Kidney-Urine-Amount in container",
+              "X": "Time",
+              "Y": "po  850 mg, Hibma 2016, n=12, tab, fast|Organism|Kidney|Urine|Metformin",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            }
+          ],
+          "Name": "Metformin - po (tab) 850 mg_Hibma 2016 - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (tab) 850 mg_Hibma 2016 - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  850 mg, Hibma 2016, n=12, tab, fast\n2026-10-22 13:52"
         }
       ]
     },
@@ -51062,14 +51993,14 @@
               "X": "Sambol_1996a, po 662.9 mg tid, Plasma, n=9|Time",
               "Y": "Sambol_1996a, po 662.9 mg tid, Plasma, n=9|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 850 mg tid_Sambol 1996a",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -51087,6 +52018,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 850 mg tid_Sambol 1996a",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  850 mg tid, Sambol 1996a, n=9, tab, fast\n2026-10-13 18:20"
         }
       ]
@@ -51381,14 +52313,14 @@
               "X": "Gan_2016, po 779.9 mg qd, Plasma, n=27|Time",
               "Y": "Gan_2016, po 779.9 mg qd, Plasma, n=27|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF0000",
+                "Color": "#0000FF",
                 "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 1000 mg_Gan 2016",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -51406,6 +52338,7 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 1000 mg_Gan 2016",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo 1000 mg, Gan 2016, n=27, tab, fast\n2026-10-13 18:26"
         }
       ]
@@ -51616,21 +52549,7 @@
       ],
       "OutputSelections": [
         "Organism|PeripheralVenousBlood|Metformin|Plasma (Peripheral Venous Blood)",
-        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-        "Organism|Bone|Metformin|Tissue",
-        "Organism|Brain|Metformin|Tissue",
-        "Organism|Gonads|Metformin|Tissue",
-        "Organism|Heart|Metformin|Tissue",
-        "Organism|Kidney|Metformin|Tissue",
-        "Organism|LargeIntestine|Metformin|Total Tissue (Large Intestine)",
-        "Organism|Liver|Metformin|Tissue (Liver)",
-        "Organism|Lung|Metformin|Tissue",
-        "Organism|Muscle|Metformin|Tissue",
-        "Organism|Pancreas|Metformin|Tissue",
-        "Organism|Skin|Metformin|Tissue",
-        "Organism|SmallIntestine|Metformin|Total Tissue (Small Intestine)",
-        "Organism|Spleen|Metformin|Tissue",
-        "Organism|Stomach|Metformin|Tissue"
+        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine"
       ],
       "OutputMappings": [
         {
@@ -51760,12 +52679,11 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -51786,22 +52704,11 @@
               }
             },
             {
-              "Name": "iv  250 mg, Tucker 1981, n=4-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF8000",
-                "LegendIndex": 2,
-                "LineStyle": "Dash"
-              }
-            },
-            {
               "Name": "Tucker_1981, iv, 195 mg, ID4-Metformin-Peripheral Venous Blood-Plasma-Measurement",
               "X": "Tucker_1981, iv, 195 mg, ID4|Time",
               "Y": "Tucker_1981, iv, 195 mg, ID4|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF8080",
+                "Color": "#DBE5F1",
                 "LegendIndex": 33,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -51812,7 +52719,7 @@
               "X": "Tucker_1981, iv, 195 mg, ID3|Time",
               "Y": "Tucker_1981, iv, 195 mg, ID3|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#808000",
+                "Color": "#DBE5F1",
                 "LegendIndex": 32,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -51823,7 +52730,7 @@
               "X": "Tucker_1981, iv, 195 mg, ID2|Time",
               "Y": "Tucker_1981, iv, 195 mg, ID2|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#80FF80",
+                "Color": "#DBE5F1",
                 "LegendIndex": 31,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -51834,68 +52741,8 @@
               "X": "Tucker_1981, iv, 195 mg, ID1|Time",
               "Y": "Tucker_1981, iv, 195 mg, ID1|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#804040",
+                "Color": "#DBE5F1",
                 "LegendIndex": 30,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Tucker_1981, iv 195 mg, Urine, n=4-Metformin-Kidney-Urine-Measurement",
-              "X": "Tucker_1981, iv 195 mg, Urine, n=4|Time",
-              "Y": "Tucker_1981, iv 195 mg, Urine, n=4|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#800080",
-                "LegendIndex": 29,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Tucker_1981, iv, Urine, ID4-Metformin-Kidney-Urine-Measurement",
-              "X": "Tucker_1981, iv, Urine, ID4|Time",
-              "Y": "Tucker_1981, iv, Urine, ID4|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#0000FF",
-                "LegendIndex": 37,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Tucker_1981, iv, Urine, ID3-Metformin-Kidney-Urine-Measurement",
-              "X": "Tucker_1981, iv, Urine, ID3|Time",
-              "Y": "Tucker_1981, iv, Urine, ID3|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF0000",
-                "LegendIndex": 36,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Tucker_1981, iv, Urine, ID2-Metformin-Kidney-Urine-Measurement",
-              "X": "Tucker_1981, iv, Urine, ID2|Time",
-              "Y": "Tucker_1981, iv, Urine, ID2|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 35,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "Tucker_1981, iv, Urine, ID1-Metformin-Kidney-Urine-Measurement",
-              "X": "Tucker_1981, iv, Urine, ID1|Time",
-              "Y": "Tucker_1981, iv, Urine, ID1|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#ECD33A",
-                "LegendIndex": 34,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -51905,154 +52752,14 @@
               "X": "Tucker_1981, iv 195 mg, Plasma, n=4|Time",
               "Y": "Tucker_1981, iv 195 mg, Plasma, n=4|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#008000",
+                "Color": "#0000FF",
                 "LegendIndex": 28,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
-            },
-            {
-              "Name": "Metformin-Bone-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Bone|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#FF0000",
-                "LegendIndex": 14
-              }
-            },
-            {
-              "Name": "Metformin-Brain-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Brain|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#FF00FF",
-                "LegendIndex": 15
-              }
-            },
-            {
-              "Name": "Metformin-Gonads-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Gonads|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#00C0C0",
-                "LegendIndex": 16
-              }
-            },
-            {
-              "Name": "Metformin-Heart-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Heart|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#C000C0",
-                "LegendIndex": 17
-              }
-            },
-            {
-              "Name": "Metformin-Kidney-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Kidney|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#C04000",
-                "LegendIndex": 18
-              }
-            },
-            {
-              "Name": "Metformin-Stomach-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Stomach|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#00FF00",
-                "LegendIndex": 19
-              }
-            },
-            {
-              "Name": "Metformin-Small Intestine-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|SmallIntestine|Metformin|Total Tissue (Small Intestine)",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#808080",
-                "LegendIndex": 20
-              }
-            },
-            {
-              "Name": "Metformin-Large Intestine-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|LargeIntestine|Metformin|Total Tissue (Large Intestine)",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#C0C000",
-                "LegendIndex": 21
-              }
-            },
-            {
-              "Name": "Metformin-Liver-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Liver|Metformin|Tissue (Liver)",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#8080FF",
-                "LegendIndex": 22
-              }
-            },
-            {
-              "Name": "Metformin-Lung-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Lung|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#0000C0",
-                "LegendIndex": 23
-              }
-            },
-            {
-              "Name": "Metformin-Muscle-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Muscle|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#00C000",
-                "LegendIndex": 24
-              }
-            },
-            {
-              "Name": "Metformin-Pancreas-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Pancreas|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#C00000",
-                "LegendIndex": 25
-              }
-            },
-            {
-              "Name": "Metformin-Skin-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Skin|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#FFFF00",
-                "LegendIndex": 26
-              }
-            },
-            {
-              "Name": "Metformin-Spleen-Tissue-Concentration",
-              "X": "Time",
-              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Spleen|Metformin|Tissue",
-              "CurveOptions": {
-                "Visible": false,
-                "Color": "#008080",
-                "LegendIndex": 27
-              }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - iv, 250 mg_Tucker 1981",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -52070,7 +52777,137 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Metformin-model-[11-20260804-1]-clean\niv  250 mg, Tucker 1981, n=4\n2026-10-13 17:19"
+          "Title": "Metformin - iv, 250 mg_Tucker 1981",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\niv  250 mg, Tucker 1981, n=4\n2026-10-22 13:07"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Tucker_1981, iv, Urine, ID1-Metformin-Kidney-Urine-Measurement",
+              "X": "Tucker_1981, iv, Urine, ID1|Time",
+              "Y": "Tucker_1981, iv, Urine, ID1|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FAC08F",
+                "LegendIndex": 33,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "iv  250 mg, Tucker 1981, n=4|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 2,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Tucker_1981, iv, Urine, ID2-Metformin-Kidney-Urine-Measurement",
+              "X": "Tucker_1981, iv, Urine, ID2|Time",
+              "Y": "Tucker_1981, iv, Urine, ID2|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FAC08F",
+                "LegendIndex": 32,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Tucker_1981, iv, Urine, ID3-Metformin-Kidney-Urine-Measurement",
+              "X": "Tucker_1981, iv, Urine, ID3|Time",
+              "Y": "Tucker_1981, iv, Urine, ID3|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FAC08F",
+                "LegendIndex": 31,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Tucker_1981, iv, Urine, ID4-Metformin-Kidney-Urine-Measurement",
+              "X": "Tucker_1981, iv, Urine, ID4|Time",
+              "Y": "Tucker_1981, iv, Urine, ID4|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FAC08F",
+                "LegendIndex": 30,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Tucker_1981, iv 195 mg, Urine, n=4-Metformin-Kidney-Urine-Measurement",
+              "X": "Tucker_1981, iv 195 mg, Urine, n=4|Time",
+              "Y": "Tucker_1981, iv 195 mg, Urine, n=4|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 29,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Metformin - iv, 250 mg_Tucker 1981 - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - iv, 250 mg_Tucker 1981 - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\niv  250 mg, Tucker 1981, n=4\n2026-10-22 13:08"
         }
       ]
     },
@@ -52247,9 +53084,7 @@
         "Organism|Kidney|Metformin|Tissue",
         "Organism|Liver|Metformin|Tissue (Liver)",
         "Organism|SmallIntestine|Metformin|Total Tissue (Small Intestine)",
-        "Organism|Muscle|Metformin|Tissue",
-        "Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-        "Organism|Lumen|Feces|Metformin|Fraction excreted to feces"
+        "Organism|Muscle|Metformin|Tissue"
       ],
       "OutputMappings": [
         {
@@ -52361,12 +53196,11 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -52382,7 +53216,7 @@
               "X": "Gormsen_2016, iv 1.445 µg, Muscle, n=5|Time",
               "Y": "Gormsen_2016, iv 1.445 µg, Muscle, n=5|ObservedData|Muscle|Tissue|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#C0C000",
+                "Color": "#974806",
                 "LegendIndex": 25,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -52393,7 +53227,6 @@
               "X": "Time",
               "Y": "iv   0.0014 mg, Gormsen 2016, n=4|Organism|ArterialBlood|Plasma|Metformin|Concentration in container",
               "CurveOptions": {
-                "Visible": false,
                 "Color": "#0000FF",
                 "LegendIndex": 2
               }
@@ -52403,7 +53236,6 @@
               "X": "Time",
               "Y": "iv   0.0014 mg, Gormsen 2016, n=4|Organism|ArterialBlood|Metformin|Whole Blood",
               "CurveOptions": {
-                "Visible": false,
                 "Color": "#FF0000",
                 "LegendIndex": 3
               }
@@ -52413,7 +53245,7 @@
               "X": "Gormsen_2016, iv 1.445 µg, Liver, n=5|Time",
               "Y": "Gormsen_2016, iv 1.445 µg, Liver, n=5|ObservedData|Liver|Tissue|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#808080",
+                "Color": "#008000",
                 "LegendIndex": 24,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -52442,7 +53274,7 @@
               "X": "Gormsen_2016, iv 1.445 µg, Kidney, n=5|Time",
               "Y": "Gormsen_2016, iv 1.445 µg, Kidney, n=5|ObservedData|Kidney|Tissue|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#00FF00",
+                "Color": "#ECD33A",
                 "LegendIndex": 23,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -52453,7 +53285,7 @@
               "X": "Gormsen_2016, iv 1.445 µg, Intestines, n=5|Time",
               "Y": "Gormsen_2016, iv 1.445 µg, Intestines, n=5|ObservedData|SmallIntestine|Tissue|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#C04000",
+                "Color": "#FAC08F",
                 "LegendIndex": 22,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -52464,7 +53296,7 @@
               "X": "Gormsen_2016, iv 1.445 µg, Arterial Whole Blood, n=4|Time",
               "Y": "Gormsen_2016, iv 1.445 µg, Arterial Whole Blood, n=4|ObservedData|ArterialBlood|Whole Blood|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#C000C0",
+                "Color": "#FF0000",
                 "LegendIndex": 21,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -52475,7 +53307,7 @@
               "X": "Time",
               "Y": "iv   0.0014 mg, Gormsen 2016, n=4|Organism|SmallIntestine|Metformin|Total Tissue (Small Intestine)",
               "CurveOptions": {
-                "Color": "#804040",
+                "Color": "#FAC08F",
                 "LegendIndex": 14
               }
             },
@@ -52484,7 +53316,7 @@
               "X": "Time",
               "Y": "iv   0.0014 mg, Gormsen 2016, n=4|Organism|Muscle|Metformin|Tissue",
               "CurveOptions": {
-                "Color": "#FF00FF",
+                "Color": "#974806",
                 "LegendIndex": 16
               }
             },
@@ -52493,38 +53325,14 @@
               "X": "Gormsen_2016, iv 1.445 µg, Arterial Plasma, n=4|Time",
               "Y": "Gormsen_2016, iv 1.445 µg, Arterial Plasma, n=4|ObservedData|ArterialBlood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#00C0C0",
+                "Color": "#0000FF",
                 "LegendIndex": 20,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
-            },
-            {
-              "Name": "iv   0.0014 mg, Gormsen 2016, n=4-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "iv   0.0014 mg, Gormsen 2016, n=4|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Visible": false,
-                "Color": "#FF8000",
-                "LegendIndex": 18,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "iv   0.0014 mg, Gormsen 2016, n=4-Metformin-Lumen-Feces-Fraction excreted to feces",
-              "X": "Time",
-              "Y": "iv   0.0014 mg, Gormsen 2016, n=4|Organism|Lumen|Feces|Metformin|Fraction excreted to feces",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Visible": false,
-                "Color": "#804040",
-                "LegendIndex": 19,
-                "LineStyle": "Dash"
-              }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - iv, 0.0014 mg_Gormsen 2016",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -52538,11 +53346,12 @@
           },
           "Settings": {
             "SideMarginsEnabled": true,
-            "LegendPosition": "RightInside",
+            "LegendPosition": "None",
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Metformin-model-[11-20260804-1]-clean\niv 1.445 µg, Gormsen 2016, n=4 - PI\n2026-10-13 17:10"
+          "Title": "Metformin - iv, 0.0014 mg_Gormsen 2016",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\niv   0.0014 mg, Gormsen 2016, n=4\n2026-10-22 13:19"
         }
       ]
     },
@@ -52811,12 +53620,11 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
               "Unit": "",
-              "Dimension": "Fraction",
               "Type": "Y2",
               "GridLines": false,
               "Visible": true,
@@ -52832,31 +53640,8 @@
               "X": "Sambol_1995, po, 662.9 mg, Whole blood, n=6|Time",
               "Y": "Sambol_1995, po, 662.9 mg, Whole blood, n=6|ObservedData|Peripheral Venous Blood||Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#FF00FF",
+                "Color": "#00C000",
                 "LegendIndex": 6,
-                "LineStyle": "None",
-                "Symbol": "Circle"
-              }
-            },
-            {
-              "Name": "po  850 mg, Sambol 1995, WholeBlood, n=6, tab, fast-Metformin-Kidney-Urine-Fraction excreted to urine",
-              "X": "Time",
-              "Y": "po  850 mg, Sambol 1995, WholeBlood, n=6, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF8000",
-                "LegendIndex": 3,
-                "LineStyle": "Dash"
-              }
-            },
-            {
-              "Name": "Sambol_1995, po 662.9 mg, Urine, n=6-Metformin-Kidney-Urine-Measurement",
-              "X": "Sambol_1995, po 662.9 mg, Urine, n=6|Time",
-              "Y": "Sambol_1995, po 662.9 mg, Urine, n=6|ObservedData|Kidney|Urine|Metformin|Measurement",
-              "CurveOptions": {
-                "yAxisType": "Y2",
-                "Color": "#FF0000",
-                "LegendIndex": 4,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -52866,7 +53651,7 @@
               "X": "Sambol_1995, po, 662.9 mg, Plasma, n=6|Time",
               "Y": "Sambol_1995, po, 662.9 mg, Plasma, n=6|ObservedData|Peripheral Venous Blood|Plasma|Metformin|Measurement",
               "CurveOptions": {
-                "Color": "#008000",
+                "Color": "#0000FF",
                 "LegendIndex": 5,
                 "LineStyle": "None",
                 "Symbol": "Circle"
@@ -52891,7 +53676,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 850 mg_Sambol 1995",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -52909,7 +53694,89 @@
             "BackColor": "#00FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
+          "Title": "Metformin - po (tab) 850 mg_Sambol 1995",
           "OriginText": "Metformin-model-[11-20260804-1]-clean\npo  850 mg, Sambol 1995, WholeBlood, n=6, tab, fast\n2026-10-13 17:13"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y2",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Dash",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Metformin-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "po  850 mg, Sambol 1995, WholeBlood, n=6, tab, fast|Organism|Kidney|Urine|Metformin|Fraction excreted to urine",
+              "CurveOptions": {
+                "yAxisType": "Y2",
+                "Color": "#FF8000",
+                "LegendIndex": 3,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "Sambol_1995, po 662.9 mg, Urine, n=6-Metformin-Kidney-Urine-Measurement",
+              "X": "Sambol_1995, po 662.9 mg, Urine, n=6|Time",
+              "Y": "Sambol_1995, po 662.9 mg, Urine, n=6|ObservedData|Kidney|Urine|Metformin|Measurement",
+              "CurveOptions": {
+                "Color": "#FF8000",
+                "LegendIndex": 4,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Metformin - po (tab) 850 mg_Sambol 1995 - fe urine",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "Title": "Metformin - po (tab) 850 mg_Sambol 1995 - fe urine",
+          "OriginText": "Metformin-model-[11-20260804-1]-clean - Copy\npo  850 mg, Sambol 1995, WholeBlood, n=6, tab, fast\n2026-10-22 13:55"
         }
       ]
     }
@@ -52964,7 +53831,7 @@
             0.00727489
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -53296,7 +54163,7 @@
             0.03031678
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -53375,7 +54242,7 @@
             0.01741824
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -53453,7 +54320,7 @@
             0.0299618114
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -53533,7 +54400,7 @@
             0.03849446
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -53702,7 +54569,7 @@
             0.106579304
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -53781,7 +54648,7 @@
             0.0317792
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -54098,7 +54965,7 @@
             0.0316000432
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -54334,7 +55201,7 @@
             0.0235891
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -54413,7 +55280,7 @@
             0.0566659719
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -54495,7 +55362,7 @@
             0.0164138
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -56684,7 +57551,7 @@
             0.1459005
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -56828,7 +57695,7 @@
             0.02102235
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -56965,7 +57832,7 @@
             0.08586639
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -57271,7 +58138,7 @@
             0.0297141485
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -57344,7 +58211,7 @@
             0.01840835
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -57417,7 +58284,7 @@
             0.0135673005
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -57490,7 +58357,7 @@
             0.032200478
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -57825,7 +58692,7 @@
             0.05476448
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -57912,7 +58779,7 @@
             0.18438
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -57990,7 +58857,7 @@
             0.0819864
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -58071,7 +58938,7 @@
             0.198365
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -58151,7 +59018,7 @@
             0.0655742958
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -58237,7 +59104,7 @@
             0.0360973
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -58331,7 +59198,7 @@
             0.05347342
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -58425,7 +59292,7 @@
             0.03512022
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -59138,7 +60005,7 @@
             0.02275846
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -59533,7 +60400,7 @@
             0.0100757005
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -59811,7 +60678,7 @@
             0.214175
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -59888,7 +60755,7 @@
             0.199197009
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -59997,7 +60864,7 @@
             0.0721393
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -60289,7 +61156,7 @@
             0.0249663
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -60412,7 +61279,7 @@
             0.03572
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "µg/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {

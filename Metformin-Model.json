@@ -39258,8 +39258,6 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0,
-              "Max": 50.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -39271,11 +39269,9 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0001,
-              "Max": 2.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -39363,7 +39359,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -39770,7 +39766,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -40085,7 +40081,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -40173,7 +40169,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -40488,7 +40484,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -40576,7 +40572,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -41206,7 +41202,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -41294,7 +41290,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -41609,7 +41605,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -42814,8 +42810,6 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0,
-              "Max": 50.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -42827,11 +42821,9 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0,
-              "Max": 1.2,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -42919,7 +42911,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -43252,11 +43244,9 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.1,
-              "Max": 53.4266,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -43344,7 +43334,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -43724,7 +43714,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -43845,7 +43835,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -44287,7 +44277,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -45008,8 +44998,6 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": -0.1522307,
-              "Max": 2.301816,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -45021,8 +45009,6 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.01061354,
-              "Max": 100.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
               "Scaling": "Log",
@@ -45397,8 +45383,6 @@
               "Type": "X",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0,
-              "Max": 50.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "None",
               "Scaling": "Linear",
@@ -45410,11 +45394,9 @@
               "Type": "Y",
               "GridLines": false,
               "Visible": true,
-              "Min": 0.0001,
-              "Max": 2.0,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -45840,7 +45822,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -46336,7 +46318,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -46957,7 +46939,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             }
           ],
@@ -47332,7 +47314,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -47475,7 +47457,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -47850,7 +47832,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -47938,7 +47920,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -48253,7 +48235,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             },
             {
@@ -48341,7 +48323,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -48709,7 +48691,7 @@
               }
             }
           ],
-          "Name": "Time Profile Analysis",
+          "Name": "Metformin - po (tab) 500 mg_DiCicco 2000",
           "FontAndSize": {
             "Fonts": {
               "AxisSize": 10,
@@ -48993,7 +48975,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             }
           ],
@@ -49303,7 +49285,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             }
           ],
@@ -51173,7 +51155,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Solid",
-              "Scaling": "Linear",
+              "Scaling": "Log",
               "NumberMode": "Normal"
             }
           ],
@@ -52811,7 +52793,7 @@
               "Visible": true,
               "DefaultColor": "#FFFFFF",
               "DefaultLineStyle": "Dash",
-              "Scaling": "Log",
+              "Scaling": "Linear",
               "NumberMode": "Normal"
             }
           ],
@@ -53831,7 +53813,7 @@
             0.00727489
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -54163,7 +54145,7 @@
             0.03031678
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -54242,7 +54224,7 @@
             0.01741824
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -54320,7 +54302,7 @@
             0.0299618114
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -54400,7 +54382,7 @@
             0.03849446
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -54569,7 +54551,7 @@
             0.106579304
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -57551,7 +57533,7 @@
             0.1459005
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -57695,7 +57677,7 @@
             0.02102235
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -57832,7 +57814,7 @@
             0.08586639
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -58692,7 +58674,7 @@
             0.05476448
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -58779,7 +58761,7 @@
             0.18438
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -58857,7 +58839,7 @@
             0.0819864
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -58938,7 +58920,7 @@
             0.198365
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -59018,7 +59000,7 @@
             0.0655742958
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -59104,7 +59086,7 @@
             0.0360973
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -59198,7 +59180,7 @@
             0.05347342
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -59292,7 +59274,7 @@
             0.03512022
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -60400,7 +60382,7 @@
             0.0100757005
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -60678,7 +60660,7 @@
             0.214175
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -60755,7 +60737,7 @@
             0.199197009
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {
@@ -61156,7 +61138,7 @@
             0.0249663
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "mg/l"
+          "Unit": "µg/ml"
         }
       ],
       "BaseGrid": {

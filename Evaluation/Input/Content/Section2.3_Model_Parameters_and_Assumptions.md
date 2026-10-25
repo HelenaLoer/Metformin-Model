@@ -16,7 +16,7 @@ An important parameter influencing the resulting volume of distribution is lipop
 
 After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim®, observed clinical data was best described by choosing the partition coefficient calculation by `PK-SIM Standard` and cellular permeability calculation by `Charge dependent Schmitt normalized to PK-SIM`.
 
-The permeability values between plasma and blood cells (`P (blood cells -> plasma)`,`P (plasma -> blood cells)`) were optimized to address the accumulation in red blood cells and capture the difference between plasma and whole blood metformin data.
+The permeability values between plasma and blood cells (`P (blood cells -> plasma)`, `P (plasma -> blood cells)`) were optimized to address the accumulation in red blood cells and capture the difference between plasma and whole blood metformin data.
 
 ### Metabolism and Elimination<a id="model-parameters-and-assumptions-metabolism"></a>
 
@@ -25,11 +25,11 @@ The transport proteins involved in metformin PK were implemented in the model as
 
 * PMAT
 
-The PMAT expression profiles are based on high-sensitive real-time RT-PCR ([Nishimura 2005](#5-references)). Metabolic enzyme activity was described as saturable process following Hill kinetics, where the `PMAT Hill` was taken from literature and `Km`and `kcat` where optimized based on clinical data (see [Section 2.3.4](#model-parameters-and-assumptions-identification)).
+The PMAT expression profiles are based on high-sensitive real-time RT-PCR ([Nishimura 2005](#5-references)). Metabolic enzyme activity was described as saturable process following Hill kinetics, where the `PMAT Hill` was taken from literature and `Km` and `kcat` where optimized based on clinical data (see [Section 2.3.4](#model-parameters-and-assumptions-identification)).
 
 * OCT1
 
-The OCT1 expression profiles are based on Microarray expression data ([Kolesnikov 2015](#5-references)). Transporter activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from literature and `kcat` was optimized based on clinical data (see [Section 2.3.4](#model-parameters-and-assumptions-identification)).
+The OCT1 expression profiles are based on high-sensitive real-time RT-PCR ([Nishimura 2005](#5-references)). Transporter activity was described as saturable process following Michaelis-Menten kinetics, where the `Km` was taken from literature and `kcat` was optimized based on clinical data (see [Section 2.3.4](#model-parameters-and-assumptions-identification)).
 
 * OCT2
 
@@ -53,11 +53,14 @@ This is the result of the final parameter identification.
 | `kcat` (OCT1)            | 641.19 | 1/min |
 | `kcat` (OCT2)                    | 17479.74 | 1/min |
 | `kcat` (MATE1)                    | 165.69 | 1/min |
-| `P(intracellular-interstitial) Kidney`| 4.02E-06 | cm/min |
-| `P(intracellular-interstitial) Liver`|4.83E-05 | cm/min |
-| `P(intracellular-interstitial) Brain`|0.02 | cm/min |
 | `Specific intestinal permeability`| 8.49E-07 | cm/min |
-| `P(intracellular-interstitial) mucosa` (Basolateral intestinal permeability)| 2.25E-05 | cm/min |
+| `P (intracellular -> interstitial)` duodenum| 2.25E-05 | cm/min |
+| `P (intracellular -> interstitial)` jejunum| 2.25E-05 | cm/min |
+| `P (intracellular -> interstitial)` ileum| 2.25E-05 | cm/min |
+| `P (intracellular -> interstitial)` cecum, colon ascendens| 2.25E-05 | cm/min |
+| `P (intracellular -> interstitial)` colon transversum| 2.25E-05 | cm/min |
+| `P (blood cells -> plasma)` | 2.25E-05 | cm/min |
+| `P (plasma -> blood cells)` | 2.25E-05 | cm/min |
 | `Tablet dissolution fed Weibull Shape`| 0.08 | - |
 | `Tablet dissolution fed Weibull Time`| 7.90 | min |
 

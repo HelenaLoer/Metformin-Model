@@ -51,17 +51,17 @@ This is the result of the final parameter identification.
 | `kcat` (PMAT)             | 76.47|1/min|
 | `Km` (PMAT)             |367.57 | µmol/l |
 | `kcat` (OCT1)            | 641.19 | 1/min |
-| `kcat` (OCT2)                    | 17479.74 | 1/min |
+| `kcat` (OCT2)                    | 51723.79 | 1/min |
 | `kcat` (MATE1)                    | 165.69 | 1/min |
-| `Specific intestinal permeability`| 8.49E-07 | cm/min |
-| `P (intracellular -> interstitial)` duodenum| 2.25E-05 | cm/min |
-| `P (intracellular -> interstitial)` jejunum| 2.25E-05 | cm/min |
-| `P (intracellular -> interstitial)` ileum| 2.25E-05 | cm/min |
-| `P (intracellular -> interstitial)` cecum, colon ascendens| 2.25E-05 | cm/min |
-| `P (intracellular -> interstitial)` colon transversum| 2.25E-05 | cm/min |
-| `P (blood cells -> plasma)` | 2.25E-05 | cm/min |
-| `P (plasma -> blood cells)` | 2.25E-05 | cm/min |
-| `Tablet dissolution fed Weibull Shape`| 0.08 | - |
+| `Specific intestinal permeability`| 4.27E-07 | cm/min |
+| `P (intracellular -> interstitial)` duodenum| 2.78E-04 | cm/min |
+| `P (intracellular -> interstitial)` jejunum| 2.27E-05 | cm/min |
+| `P (intracellular -> interstitial)` ileum| 1.23E-05 | cm/min |
+| `P (intracellular -> interstitial)` cecum, colon ascendens| 1.72E-05 | cm/min |
+| `P (intracellular -> interstitial)` colon transversum| 6.34E-06 | cm/min |
+| `P (blood cells -> plasma)` | 4.16E-08 | cm/min |
+| `P (plasma -> blood cells)` | 7.70E-08 | cm/min |
+| `Tablet dissolution fed Weibull Shape`| 0.11 | - |
 | `Tablet dissolution fed Weibull Time`| 7.90 | min |
 
 

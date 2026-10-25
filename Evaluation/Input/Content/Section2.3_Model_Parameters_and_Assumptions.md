@@ -1,7 +1,7 @@
 ### Absorption<a id="model-parameters-and-assumptions-absorption"></a>
 
 The parameter value for `Specific intestinal permeability` was optimized based on clinical oral data, see [Section 2.3.4](#model-parameters-and-assumptions-identification). The saturable
-absorption is implemented via PMAT and OCT1 in the small intestine. As late absorption of orally administered metformin is neither consistent with the reported plasma concentration time-profiles nor with the incomplete absorption of metformin, the relative expression of PMAT and OCT1 in the large intestinal mucosa was set to zero. Additionally, no information regarding active transport processes at the basolateral side of the intestinal mucosa could be obtained, therefore, the passive  basolateral permeability `(P (intracellular -> interstitial)` was optimized, see [Section 2.3.4](#model-parameters-and-assumptions-identification).
+absorption is implemented via PMAT and OCT1, mainly in the small intestine. In the original model, as late absorption of orally administered metformin was considered neither consistent with the reported plasma concentration time-profiles nor with the incomplete absorption of metformin, the relative expression of PMAT and OCT1 in the large intestinal mucosa was set to zero. Additionally, as no information regarding active transport processes at the basolateral side of the intestinal mucosa could be obtained, the passive permeability `(P (intracellular -> interstitial)` of the small intestinal mucosa was optimized. In the updated model, to allow capture of late-phase pharmacokinetics following single and multiple oral dosing as well as intravenous administration, the expression profile for OCT1 was switched from Array to RT-PCR. Given the contradictory data regarding colonic absorption of metformin, the default expression in the large intestinal mucosa was kept unchanged. Moreover, in addition to refining the permeability from intracellular to interstitial space of the small intestinal mucosa, respective permeabilities were optimized for cecum, colon ascendens, and colon transversum, while setting the later segments colon descendens, colon sigmoid, and rectum to zero, see [Section 2.3.4](#model-parameters-and-assumptions-identification).
 
 The measured solubility of metformin hydrochloride
 in a phosphate buffer at pH 6.8 was used in the model (see [Section 2.2.1](#invitro-and-physico-chemical-data)).
@@ -14,9 +14,9 @@ Metformin is not bound to plasma proteins (fu = 100 %) (see [Section 2.2.1](#inv
 
 An important parameter influencing the resulting volume of distribution is lipophilicity. The reported experimental logP of -1.43 was used in this model (see [Section 2.2.1](#invitro-and-physico-chemical-data)). 
 
-After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim®, observed clinical data was best described by choosing the partition coefficient calculation by `PK-SIM Standard` and cellular permeability calculation by `PK-SIM Standard`.
+After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim®, observed clinical data was best described by choosing the partition coefficient calculation by `PK-SIM Standard` and cellular permeability calculation by `Charge dependent Schmitt normalized to PK-SIM`.
 
-The liver, kidney and brain permeabilities (i.e., (`(P (intracellular -> interstitial) liver periportal`, `(P (intracellular -> interstitial) liver pericentral` and (`(P (intracellular -> interstitial) kidney`) were optimized to avoid accumulation of drug in tissue and to capture observed PK profiles [Section 2.3.4](#model-parameters-and-assumptions-identification). 
+The permeability values between plasma and blood cells `(P (blood cells -> plasma)`were optimized to address the accumulation in red blood cells and capture the difference between plasma and whole blood metformin data.
 
 ### Metabolism and Elimination<a id="model-parameters-and-assumptions-metabolism"></a>
 
